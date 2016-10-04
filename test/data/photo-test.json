@@ -1,0 +1,36 @@
+{
+  "date": "2016-10-04T10:12:14+02:00",
+  "version": "0.1.4",
+  "relased": "2015-09-28T15:17:00+02:00",
+  "urlthumb": "http://cdn1-odm.sviluppoaptservizi.com/odm/r,",
+  "urlpreview": "http://cdn1-odm.sviluppoaptservizi.com/odm-prev/p,",
+  "urlstore": "http://photo.aptservizi.com/store/",
+  "allrecords": "655",
+  "items": [
+    {
+      "id": "1069",
+      "idmonumento": "1843",
+      "fotofinale": "ra,2014,ravenna,piazza_del_popolo_e_residenza_comunale,w,1069,pascual_gargiulo.jpg",
+      "gownid": "1",
+      "titolofoto": "Piazza del Popolo e Residenza Comunale - 039014204-MIBAC -",
+      "autore": "Pascual gargiulo",
+      "linkorig": "https://commons.wikimedia.org/wiki/File:Piazza_del_Popolo_e_Residenza_Comunale_-_039014204-MIBAC_-.JPG",
+      "anno": "2014",
+      "peso": "1.49M",
+      "larghezza": "2000",
+      "altezza": "1596",
+      "cc": "BY",
+      "chkresize": "K",
+      "evidenza": null,
+      "mibact_foto": "0",
+      "soggetto": null,
+      "nome": "Piazza del Popolo e Residenza Comunale",
+      "titololinkmonumento": "Piazza del Popolo (Ravenna)",
+      "comune": "Ravenna",
+      "indirizzo": "piazza del Popolo 1",
+      "provincia": "RA",
+      "gidmibac": "15767",
+      "fonte": "Wiki Loves Monuments"
+    }
+  ]
+}
