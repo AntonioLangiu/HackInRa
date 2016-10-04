@@ -5,6 +5,8 @@ Il back end sarà creato con node js e mongo db.
 
 Una volta creato il sito andrà inserito in una App mobile usando Apache Cordova.
 
+> Cartella condivisa: https://owncloud.synapta.it/index.php/s/7vTw163aI9MuSQI
+
 I ruoli definiti fino ad ora sono:
 
 - Pulizia dati e inserimento in db: Alessio
