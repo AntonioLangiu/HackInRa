@@ -2,7 +2,9 @@ var fs = require('fs'),
     assert = require('assert'),
     mongo = require('../mongo/mongo.js'),
     docs = [],
-    collection = '';
+    collection = '',
+    fields = {}
+    key = {};
 
 before(function () {
     fs.readFile('test/data/photo-test.json', function (err, data) {
@@ -11,6 +13,7 @@ before(function () {
     });
     collection = 'photo-test';
     fields = { 'urlstore': 1, 'urlthumb':1 };
+    key = {'urlthumb': 'http://cdn1-odm.sviluppoaptservizi.com/odm/r,'};
 });
 
 describe('Test Mongo', function () {
@@ -26,6 +29,12 @@ describe('Test Mongo', function () {
             assert.deepEqual(list[0]['urlstore'], 'http://photo.aptservizi.com/store/');
             assert.deepEqual(list[0]['urlthumb'], 'http://cdn1-odm.sviluppoaptservizi.com/odm/r,');
             assert.deepEqual(list[0]['version'], undefined);
+            done();
+        });
+    });
+    it('should return specific fields of defined document', function (done) {
+        mongo.getDoc(collection, fields, key, function (item) {
+            assert.deepEqual(item['urlstore'], 'http://photo.aptservizi.com/store/');
             done();
         });
     });

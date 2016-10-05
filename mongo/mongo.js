@@ -26,5 +26,18 @@ var listFromDB = function (name, fields, cb) {
     });
 }
 
+var getDoc = function (name, fields, key, cb) {
+    client.connect(url, function (err, db) {
+        if (err) throw err;
+        var collection = db.collection(name);
+        collection.find(key, fields).toArray(function (err, items) {
+            if (err) throw err;
+            db.close();
+            cb(items[0]);
+        });
+    });
+}
+
 exports.writeInDB = writeInDB;
 exports.listFromDB = listFromDB;
+exports.getDoc = getDoc;
