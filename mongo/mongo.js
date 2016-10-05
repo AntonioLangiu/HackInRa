@@ -14,4 +14,17 @@ var writeInDB = function (docs, name, cb) {
     });
 }
 
+var listFromDB = function (name, fields, cb) {
+    client.connect(url, function (err, db) {
+        if (err) throw err;
+        var collection = db.collection(name);
+        collection.find({}, fields).toArray(function (err, docs) {
+            if (err) throw err;
+            db.close();
+            cb(docs);
+        });
+    });
+}
+
 exports.writeInDB = writeInDB;
+exports.listFromDB = listFromDB;
