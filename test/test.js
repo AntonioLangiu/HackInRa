@@ -15,7 +15,7 @@ before(function () {
         }
     });
     collection = 'photo-test';
-    fields = {'id': 1, 'autore': 1, 'linkorig':1 };
+    fields = {'id': 1, 'autore': 1, 'linkorig': 1};
     key = {'id': '1071'};
 });
 
