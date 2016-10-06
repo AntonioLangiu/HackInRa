@@ -2,7 +2,7 @@ var  fs = require('fs');
 var mongo = require('./mongo.js');
 var resources = {};
 
-fs.readFile('mongo-writer-conf.json', function (err, data) {
+fs.readFile('mongo-conf.json', function (err, data) {
     if (err) throw err;
     resources = JSON.parse(data);
     prepareData();
