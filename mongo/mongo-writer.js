@@ -1,5 +1,5 @@
 var  fs = require('fs');
-var mongo = require('../mongo/mongo.js');
+var mongo = require('./mongo.js');
 var resources = {};
 
 fs.readFile('mongo-writer-conf.json', function (err, data) {
