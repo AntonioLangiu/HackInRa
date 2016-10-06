@@ -1,0 +1,30 @@
+{
+    "resources": [{
+        "path": "data/eventi.json",
+        "name": "eventi",
+        "iterator": "eventoAgenda",
+        "fields": ["categoria", "endDate", "immagine", "link", "startDate", "testoHtml", "titolo"],
+        "enabled": true
+    },
+    {
+        "path": "data/musei.json",
+        "name": "musei",
+        "iterator": "Scheda",
+        "fields": ["Titolo", "Descrizione", "UrlScheda"],
+        "enabled": true
+    },
+    {
+        "path": "data/percorsi.json",
+        "name": "percorsi",
+        "iterator": "Scheda",
+        "fields": ["Titolo", "Descrizione", "UrlScheda"],
+        "enabled": true
+    },
+    {
+        "path": "data/photo.json",
+        "name": "photo",
+        "iterator": "items",
+        "fields": ["id", "titolofoto", "autore", "linkorig", "indirizzo"],
+        "enabled": true
+    }]
+}
