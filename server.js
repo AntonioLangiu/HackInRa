@@ -24,7 +24,7 @@ app.get('/api/:type', function (request, response) {
    });
 });
 
-app.get('/doc/:id', function (request, response) {
+app.get('/api/doc/:id', function (request, response) {
    query.getDoc(request.params.id, function (data){
        response.writeHead(200, {"Content-Type": "application/json"});
        response.end(JSON.stringify(data));
