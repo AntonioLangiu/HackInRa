@@ -2,37 +2,25 @@
   "name": "hackinra",
   "version": "0.0.1",
   "description": "Project for Hackathon Ravenna",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
-    "mongodb": "^2.2.10"
+        "express": "~4.x",
+        "commander": "^2.6.0",
+        "http-post": "^0.1.1",
+        "http-proxy": "^1.8.1",
+        "cf-deployment-tracker-client": "*",
+        "apicache": "^0.2.2"
   },
-  "dependencies": {
-    "apicache": "^0.2.2"
-  },
-
-  "devDependencies": {
-    "mocha": "^3.1.0"
-  },
+  "main": "server.js",
   "scripts": {
-    "test": "mocha"
+     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AntonioLangiu/HackInRa.git"
   },
-  "keywords": [
-    "app",
-    "mobile",
-    "tourism",
-    "ravenna"
-  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntonioLangiu/HackInRa/issues"
-  },
-  "homepage": "https://github.com/AntonioLangiu/HackInRa#readme"
+  }
 }
