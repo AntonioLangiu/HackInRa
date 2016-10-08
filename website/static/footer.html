@@ -1,0 +1,22 @@
+<!-- This footer will be hidden for mobile devices -->
+<footer class="page-footer hide-on-med-and-down">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">{{appName}}</h5>
+          <p class="grey-text text-lighten-4">{{footer_text}}</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Link utili</h5>
+          <ul>
+            <li ng-repeat="item in footer_links"><a class="grey-text text-lighten-3" href="{{item.link}}">{{item.text}}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright" style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 30%; background-repeat: repeat;">
+      <div class="container">
+       2016 Copyright ScopriRa
+      </div>
+    </div>
+  </footer>

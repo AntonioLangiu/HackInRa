@@ -1,21 +1,5 @@
 var angular = require ('angular');
-var angularRoute = require ('angular-route')
-
-var app = angular.module('hackinra', ["ngRoute"]);
-
-
-app.config(['$routeProvider', function($routeProvider) {
-    $routeProvider
-        .when("/dove_andare", {
-          templateUrl : "modules/dove_andare.html"
-        })
-        .when("/cosa_fare", {
-          templateUrl: "modules/cosa_fare.html"
-        })
-        .when("/cibo", {
-          templateUrl: "modules/cibo.html"
-        })
-}])
+var app = angular.module('hackinra',[]);
 
 app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $scope.appName = 'ScopriRa';
@@ -48,9 +32,11 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Emergenze', link: '#'}
   ];
 
-  $http.get('data/eventi.json').then(function(res) {
-    $scope.events = res.data;
-    console.log($scope.events);
+  $http.get('').then(function(res) {
+    $scope.chiese = res.data;
+    console.log($scope.chiese);
   });
 
+
+  $scope.modalTrigger = function () { $('#modal1').openModal() }
 }]);
