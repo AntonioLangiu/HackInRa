@@ -1,17 +1,17 @@
-var http = require('http');
+var https = require('https');
 
-var host = "synapta.io"; //N.B. non ci va http o https
+var host = "4ac10947-aef3-43fa-ab73-6f212fc11b4b-bluemix.cloudant.com"; //N.B. non ci va http o https
 
 exports.launchQuery = function (request, response, query, acceptFormat) {
     var options = {
         host: host,
-        path: "/changeMePlease
-        port: "1234",
+        path: "/scoprira",
+        port: "443",
         method: "GET"
     };
 
 
-    var req = http.request(options, function(res) {
+    var req = https.request(options, function(res) {
         console.log('STATUS: ' + res.statusCode);
         console.log('HEADERS: ' + JSON.stringify(res.headers));
         res.setEncoding('utf8');

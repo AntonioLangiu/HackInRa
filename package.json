@@ -9,6 +9,10 @@
   "dependencies": {
     "mongodb": "^2.2.10"
   },
+  "dependencies": {
+    "apicache": "^0.2.2"
+  },
+
   "devDependencies": {
     "mocha": "^3.1.0"
   },
