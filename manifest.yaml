@@ -2,4 +2,4 @@
 applications:
 - name:    scoprira
   host:    scoprira
-  memory:  128M
+  memory:  512M
