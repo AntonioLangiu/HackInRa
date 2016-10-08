@@ -5,8 +5,25 @@ var querystring = require('querystring');
 var port = process.env.VCAP_APP_PORT || 8080;
 var oneDay = 86400000;
 var app = express();
+var cors = require("cors");
+
+app.use(cors());
 
 app.use('/', express.static('./website/static', { maxAge: oneDay }));
+
+app.get('/api/all/imperdibili', apicache('1 day'), function (request, response) {
+   query.listCategoryBool("imperdibile", function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+app.get('/api/all/mosaici', apicache('1 day'), function (request, response) {
+   query.listCategoryBool("mosaico", function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
 
 app.get('/api/all/:type', apicache('1 day'), function (request, response) {
    query.listDocsType(request.params.type, function (data) {

@@ -19,7 +19,25 @@ exports.listDocsType = function (type, cb) {
       return console.log('Failed to initialize Cloudant: ' + err.message);
     }
     var db = cloudant.db.use("scoprira");
-    db.find({selector:{"properties": {"type": type}}}, function (err, data) {
+    db.find({selector:{"properties": {"categoria": type}}}, function (err, data) {
+      console.log("listDocsType:", data);
+      // TODO: do we need to check for `docs` being undefined here?
+      cb(data.docs);
+    });
+  });
+};
+
+exports.listCategoryBool = function (label, cb) {
+  Cloudant({account:me, password:password}, function (err, cloudant) {
+    if (err) {
+      // XXX here it would be better to callback(err)
+      return console.log('Failed to initialize Cloudant: ' + err.message);
+    }
+    var db = cloudant.db.use("scoprira");
+    console.log(label)
+    var dict = {};
+    dict[label] = true;
+    db.find({selector:{"properties": dict}}, function (err, data) {
       console.log("listDocsType:", data);
       // TODO: do we need to check for `docs` being undefined here?
       cb(data.docs);
