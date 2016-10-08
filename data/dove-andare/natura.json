@@ -69,23 +69,5 @@
     "foto": "http://www.turismo.ra.it/upload/sfondi_header/punta_alberete.jpg",
     "type": "Luogo"
   }
-},
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": []
-  },
-  "properties": {
-    "categoria": "Natura",
-    "titolo": "Punte Alberete e Valle Mandriole",
-    "descrizione": "Punte Alberete e Valle Mandriole costituiscono gli ultimi esempi di palude di acqua dolce, residui delle foreste paludose meridionali della Valle Padana. La loro origine è legata alle vicende idrauliche del fiume Lamone, che fino al XIV secolo mancava di un sbocco diretto verso il mare; soltanto con l'intervento pontificio del 1839 si riuscì a sistemare quest'area, favorendone la sua bonifica.",
-    "imperdibile": true,
-    "indirizzo": "Canale Fossatone - Ravenna (RA)",
-    "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Ambiente-e-natura/Parchi_-riserve-naturali/Punte-Alberete-e-Valle-Mandriole",
-    "wikipedia": "https://it.wikipedia.org/wiki/Punte_Alberete",
-    "foto": "http://www.turismo.ra.it/upload/sfondi_header/punta_alberete.jpg",
-    "type": "Luogo"
-  }
 }
 ]
