@@ -21,24 +21,6 @@
    "type": "Feature",
    "geometry": {
      "type": "Point",
-     "coordinates": []
-   },
-   "properties": {
-     "categoria": "Monumento",
-     "titolo": "Cripta Rasponi e Giardini Pensili del Palazzo della Provincia",
-     "descrizione": "Il Palazzo della Provincia, realizzato tra il 1925 e il 1928 su progetto dell'architetto piacentino Giulio Ulisse Arata, è un esempio di architettura neoromantica con richiami stilistici di tipo bizantino. L'attuale edificio sorge sull'antico Palazzo Rasponi, databile al XVII secolo, usato come dimora patrizia fino al 1886, anno in cui fu trasformato in albergo; distrutto da un incendio nel 1922, fu ricostruito nel 1926. Dell'antico palazzo rimangono la Cripta e il passaggio pensile su Via Santi, inseriti all'interno di elementi architettonici appartenenti a epoche diverse. La Cripta rappresenta il nucleo più antico del complesso architettonico. Si tratta di una piccola cappella gentilizia che tuttavia non ha mai accolto i defunti della famiglia Rasponi, suddivisa in tre ambienti: quello di accesso s'innesta alla base di una torretta neogotica (fine XIX secolo); un vano conserva una sfera di pietra con l'iscrizione sic vita pendet ab alto; infine, l'ultima stanza accoglie un piccolo altare per le funzioni religiose. La parte più significativa della cripta è costituita dal pavimento a mosaico, proveniente dalla Chiesa di San Severo (Classe) e databile al VI secolo. È decorato con motivi ornamentali e figure animali (galline, anatre, oche, teste di ariete e serpenti), raffigurati in atteggiamenti spontanei e vivacizzati dall'uso di smalti che ne esaltano la ricchezza cromatica. ll Giardino, arricchito da una bella fontana e dalla torre neogotica, presenta anche una parte pensile prospiciente Piazza San Francesco, dalla quale è possibile accedere al contiguo terrazzo sopra il voltone (1839), in passato usato come collegamento tra Palazzo Rasponi e le scuderie e i magazzini.",
-     "imperdibile": true,
-     "indirizzo": "Piazza San Francesco, 1 - Ravenna (RA)",
-     "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Siti-archeologici/Cripta-Rasponi-e-Giardini-Pensili-del-Palazzo-della-Provincia",
-     "wikipedia": "https://it.wikipedia.org/wiki/Palazzo_della_Provincia_(Ravenna)",
-     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Torre_Palazzo_Provincia_Ravenna.jpg/1280px-Torre_Palazzo_Provincia_Ravenna.jpg",
-     "type": "Luogo"
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-     "type": "Point",
      "coordinates": [12.2050760, 44.4216770]
    },
    "properties": {
