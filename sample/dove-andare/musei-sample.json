@@ -1,0 +1,27 @@
+[{
+    "Categoria": "Museo",
+    "Coordinate": null,
+    "Indirizzo": "Piazza Arcivescovado, 1 - Ravenna (RA)",
+    "Telefono": "011-232385",
+    "Orario": "10.30-12.00",
+    "Descrizione": "Situato al primo e secondo piano dell'antico e vasto Palazzo dell'Arcivescovado di Ravenna, il Museo accoglie numerose opere d'arte provenienti dall'antica cattedrale e da altre costruzioni ora distrutte, come la famosa cattedra in avorio di Massimiano.",
+    "Titolo": "Museo Arcivescovile",
+    "UrlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Arcivescovile",
+    "Wikipedia": "https://it.wikipedia.org/wiki/Museo_arcivescovile_di_Ravenna",
+    "Prezzo": "10.50",
+    "Foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Museo_arcivescovile_Ravenna_1.JPG/800px-Museo_arcivescovile_Ravenna_1.JPG",
+    "Mosaico": true
+},
+{
+    "Categoria": "Museo",
+    "Coordinate": null,
+    "Indirizzo": "Piazza Arcivescovado, 1 - Ravenna (RA)",
+    "Telefono": "011-232385",
+    "Orario": "10.30-12.00",
+    "Descrizione": "The Archiepiscopal Museum is located on the first and second floor of the Archiepiscopal Palace and contains numerous artworks that belonged to the ancient cathedral and to other buildings now demolished, such as the famous ivory throne of Maximian.",
+    "Titolo": "Archiepiscopal Museum",
+    "UrlScheda": "http://www.turismo.ra.it/eng/Discover-the-area/Art-and-culture/Museums-and-galleries/Archiepiscopal-Museum",
+    "Wikipedia": "https://it.wikipedia.org/wiki/Museo_arcivescovile_di_Ravenna",
+    "Prezzo": "12.10",
+    "Foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Museo_arcivescovile_Ravenna_1.JPG/800px-Museo_arcivescovile_Ravenna_1.JPG",
+}]
