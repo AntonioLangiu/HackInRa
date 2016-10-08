@@ -15,7 +15,7 @@ exports.listDocsType = function (type, cb) {
     db.find({selector:{"type": type}}, function(err, data) {
       if (err) throw err;
       console.log("allDocsType" + data);
-      cb(data)
+      cb(data.docs)
     });
   });
 }
