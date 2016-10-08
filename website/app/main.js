@@ -44,9 +44,13 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     $scope.natura = res.data;
   });
   $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Museo').then(function(res) {
-    $scope.museo = res.data;
-  });$http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento').then(function(res) {
-    $scope.monumento = res.data;
+    $scope.musei = res.data;
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento').then(function(res) {
+    $scope.monumenti = res.data;
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Mosaici').then(function(res) {
+    $scope.mosaici = res.data;
   });
 
 
