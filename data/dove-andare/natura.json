@@ -15,4 +15,77 @@
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Torre_Palazzo_Provincia_Ravenna.jpg/1280px-Torre_Palazzo_Provincia_Ravenna.jpg",
     "type": "Luogo"
   }
-}]
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": []
+  },
+  "properties": {
+    "categoria": "Natura",
+    "titolo": "Pineta di San Vitale",
+    "descrizione": "La pineta di San Vitale costituisce la parte più vasta e settentrionale del complesso boschivo che storicamente separava dal mare la città di Ravenna. È caratterizzata dalla presenza di bassure umide alternate a “staggi”, ovvero zone più elevate derivate dagli antichi cordoni dunosi. Tali radure si aprono nel mezzo di una foresta di pini, di frassini, di pioppi bianchi, di querce e farnie, molti dei quali vegetano con la base del proprio tronco immersa nell'acqua. Anche il sottobosco è molto ricco. Si possono riconoscere biancospini, prugnoli, sanguinelle, olivastri, ginestrelle, pungitopi, asparagi, funghi, rose selvatiche e altro ancora. Assieme alla pineta di Classe, la pineta di San Vitale è sempre stata profondamente legata ai valori culturali e alla tradizione locale e tutelata dal punto di vista normativo. Inoltre da qualche decennio fa parte del patrimonio del Parco Regionale del Delta del Po. Depauperata delle sue ricchezze naturali, è oggi in espansione grazie a diverse azioni di rimboschimento effettuate dall'Amministrazione Comunale e da alcune Cooperative agricole locali. Per consentire la visita di queste zone, e poterne apprezzare la bellezza e la ricchezza dal punto di vista naturalistico, sono attivi diversi percorsi e aree di sosta (Ca' Vecia e Ca' Nova) segnalati e attrezzati con punti di osservazione schermati. In particolare, dal parcheggio della Ca' Vecia, Centro di didattica ambientale del Parco, partono sentieri verso il cuore della pineta e la Pialassa Baiona. Da qui si snoda un percorso fruibile a piedi o in bicicletta che consente di visitare la caratteristica chiesetta della Madonna del Pino, attraversare i ponticelli sul Canale Fossatone, e raggiungere bassure ove ammirare aironi, folaghe, anatre. Il bosco è anche attraversato da itinerari a cavallo, per effettuare i quali è necessario rivolgersi ai maneggi o alle aziende agrituristiche, presenti all'interno della pineta e nelle campagne vicine.",
+    "imperdibile": true,
+    "indirizzo": "Statale Romea 309 - Ravenna (RA)",
+    "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Ambiente-e-natura/Parchi_-riserve-naturali/La-Pineta-di-San-Vitale",
+    "wikipedia": "https://it.wikipedia.org/wiki/Pineta_di_Ravenna",
+    "foto": "http://www.turismo.ra.it/upload/sfondi_header/pineta_svitale2.jpg",
+    "type": "Luogo"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": []
+  },
+  "properties": {
+    "categoria": "Natura",
+    "titolo": "Il Bardello",
+    "descrizione": "La Bassa del Bardello costituisce la parte iniziale di una depressione allungata di origine storica nota come Bassa del Pirotolo, situata a nord della Pineta di San Vitale e terminante nella Buca del Cavedone. Si presenta come una prateria allagata dolce, popolata da tartarughe d'acqua, svassi, ardeidi, aironi cenerini ed altre specie animali, cui si affianca una flora variegata, tra cui il ranuncolo d'acqua.",
+    "imperdibile": true,
+    "indirizzo": "Strada Statale 309 Romea - Ravenna (RA)",
+    "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Ambiente-e-natura/Parchi_-riserve-naturali/Il-Bardello",
+    "wikipedia": "",
+    "foto": "http://www.turismo.ra.it/upload/sfondi_header/bardello.jpg",
+    "type": "Luogo"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": []
+  },
+  "properties": {
+    "categoria": "Natura",
+    "titolo": "Punte Alberete e Valle Mandriole",
+    "descrizione": "Punte Alberete e Valle Mandriole costituiscono gli ultimi esempi di palude di acqua dolce, residui delle foreste paludose meridionali della Valle Padana. La loro origine è legata alle vicende idrauliche del fiume Lamone, che fino al XIV secolo mancava di un sbocco diretto verso il mare; soltanto con l'intervento pontificio del 1839 si riuscì a sistemare quest'area, favorendone la sua bonifica.",
+    "imperdibile": true,
+    "indirizzo": "Canale Fossatone - Ravenna (RA)",
+    "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Ambiente-e-natura/Parchi_-riserve-naturali/Punte-Alberete-e-Valle-Mandriole",
+    "wikipedia": "https://it.wikipedia.org/wiki/Punte_Alberete",
+    "foto": "http://www.turismo.ra.it/upload/sfondi_header/punta_alberete.jpg",
+    "type": "Luogo"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": []
+  },
+  "properties": {
+    "categoria": "Natura",
+    "titolo": "Punte Alberete e Valle Mandriole",
+    "descrizione": "Punte Alberete e Valle Mandriole costituiscono gli ultimi esempi di palude di acqua dolce, residui delle foreste paludose meridionali della Valle Padana. La loro origine è legata alle vicende idrauliche del fiume Lamone, che fino al XIV secolo mancava di un sbocco diretto verso il mare; soltanto con l'intervento pontificio del 1839 si riuscì a sistemare quest'area, favorendone la sua bonifica.",
+    "imperdibile": true,
+    "indirizzo": "Canale Fossatone - Ravenna (RA)",
+    "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Ambiente-e-natura/Parchi_-riserve-naturali/Punte-Alberete-e-Valle-Mandriole",
+    "wikipedia": "https://it.wikipedia.org/wiki/Punte_Alberete",
+    "foto": "http://www.turismo.ra.it/upload/sfondi_header/punta_alberete.jpg",
+    "type": "Luogo"
+  }
+}
+]
