@@ -32,9 +32,16 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Emergenze', link: '#'}
   ];
 
-  $http.get('').then(function(res) {
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Chiesa').then(function(res) {
     $scope.chiese = res.data;
-    console.log($scope.chiese);
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Natura').then(function(res) {
+    $scope.natura = res.data;
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Museo').then(function(res) {
+    $scope.museo = res.data;
+  });$http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento').then(function(res) {
+    $scope.monumento = res.data;
   });
 
 
