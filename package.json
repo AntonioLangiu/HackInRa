@@ -14,7 +14,8 @@
     "express": "~4.x",
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1",
-    "jquery": "latest"
+    "jquery": "latest",
+    "request": "^2.75.0"
   },
   "main": "server.js",
   "scripts": {

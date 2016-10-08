@@ -2,13 +2,13 @@ var express = require('express');
 var query = require('./query.js');
 var apicache = require('apicache').options({ debug: true }).middleware;
 var bodyParser = require('body-parser');
-
+var querystring = require('querystring');
 var port = process.env.VCAP_APP_PORT || 8080;
 var oneDay = 86400000;
 var app = express();
 
 app.use('/',express.static('./website/static', { maxAge: oneDay }));
-app.use(bodyParser.json());
+//app.use(bodyParser.json());
 
 /* PAGES */
 app.get('/about', function (request, response) {
@@ -31,10 +31,11 @@ app.get('/api/doc/:id',apicache('1 day'), function (request, response) {
    });
 });
 
-app.post('/api/geo',apicache('1 day'), function (request, response) {
-   query.getLocations(request.body, function (data){
+app.get('/api/geo/nearest', apicache('1 day'), function (request, response) {
+   console.log(request.query);
+   query.getLocations(request.query, function (data){
        response.writeHead(200, {"Content-Type": "application/json"});
-       response.end(JSON.stringify(data));
+       response.end(JSON.stringify(JSON.parse(data)["rows"])); // XXX
    });
 });
 
