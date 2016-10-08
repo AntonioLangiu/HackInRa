@@ -6,6 +6,8 @@ var port = process.env.VCAP_APP_PORT || 8080;
 var oneDay = 86400000;
 var app = express();
 
+app.use(require("cors")()); //XXX
+
 app.use('/', express.static('./website/static', { maxAge: oneDay }));
 
 app.get('/api/all/:type', apicache('1 day'), function (request, response) {
