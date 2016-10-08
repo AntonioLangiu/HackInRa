@@ -13,7 +13,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale A. Spinelli - Ravenna (RA)",
 		"localita": "Borgo Montone",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -30,7 +30,7 @@
 		"provincia": "RA",
 		"indirizzo": "Vicolo Bastione - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -47,7 +47,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via della Tesoreria Vecchia - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -64,7 +64,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Nord - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -81,7 +81,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Mafalda di Savoia - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -98,7 +98,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Santerno Ammonite - Ravenna (RA)",
 		"localita": "Santerno",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -115,7 +115,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale dei Lombardi - Ravenna (RA)",
 		"localita": "Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -132,7 +132,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Pasolini - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -149,7 +149,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Bonifica - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -166,7 +166,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Baiona - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -183,7 +183,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Brunelli - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -200,7 +200,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Bonifica - Ravenna (RA)",
 		"localita": "Porto Fuori",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -217,7 +217,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza A. Saffi - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -234,7 +234,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Orazio - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -251,7 +251,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Marconi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -268,7 +268,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Classense - Ravenna (RA)",
 		"localita": "Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -285,7 +285,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Cerchio - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -302,7 +302,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Bassa del Pignataro - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -319,7 +319,7 @@
 		"provincia": "RA",
 		"indirizzo": "Carraia Vangaticcio - Ravenna (RA)",
 		"localita": "Madonna dell'Albero",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -336,7 +336,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via IV Novembre - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -353,7 +353,7 @@
 		"provincia": "RA",
 		"indirizzo": "Vicolo Gabbiani - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -370,7 +370,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Sud - Ravenna (RA)",
 		"localita": "Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -387,7 +387,7 @@
 		"provincia": "RA",
 		"indirizzo": "Circ. Al Molino - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -404,7 +404,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Maggiore - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -421,7 +421,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale G. di Vittorio - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -438,7 +438,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Forello - Ravenna (RA)",
 		"localita": "S. Alberto",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -455,7 +455,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via C. Torres - Ravenna (RA)",
 		"localita": "Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -472,7 +472,7 @@
 		"provincia": "RA",
 		"indirizzo": "S.S. San Vitale - Ravenna (RA)",
 		"localita": "Fornace Zarattini",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -489,7 +489,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Rossa - Ravenna (RA)",
 		"localita": "Matellica",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -506,7 +506,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -523,7 +523,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -540,7 +540,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via IV Novembre - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -557,7 +557,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Lungomare - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -574,7 +574,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Casalborsetti - Ravenna (RA)",
 		"localita": "Casalborsetti",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -591,7 +591,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via dei Navigatori - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -608,7 +608,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Ragone - Ravenna (RA)",
 		"localita": "Ragone",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -625,7 +625,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Mura di San Vitale - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -642,7 +642,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via delle Ondine - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -659,7 +659,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza Torino - Ravenna (RA)",
 		"localita": "Marina Romea",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -676,7 +676,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Marabina - Ravenna (RA)",
 		"localita": "Lido di Dante",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -693,7 +693,7 @@
 		"provincia": "RA",
 		"indirizzo": "Circ. Piazza d'Armi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -710,7 +710,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Rasponi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -727,7 +727,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Magazzini Anteriori - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -744,7 +744,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Sud - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -761,7 +761,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Gamba - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -778,7 +778,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale S. Allende - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -795,7 +795,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via S. Cavina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -812,7 +812,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -829,7 +829,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via M. d'Azeglio - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -846,7 +846,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Mentana - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -863,7 +863,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Ponte della Vecchia - Ravenna (RA)",
 		"localita": "S.Zaccaria",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -880,7 +880,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Catone - Ravenna (RA)",
 		"localita": "Lido di Dante",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -897,7 +897,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza F. Baracca - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -914,7 +914,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Sant'Alberto - Ravenna (RA)",
 		"localita": "S. Alberto",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -931,7 +931,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale dei Pescatori - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -948,7 +948,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Savarna - Ravenna (RA)",
 		"localita": "Savarna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -965,7 +965,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -982,7 +982,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Guaccimanni - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -999,7 +999,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via San Mama - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1016,7 +1016,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Antica Milizia - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1033,7 +1033,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Candiano - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1050,7 +1050,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via G. Marignolli - Ravenna (RA)",
 		"localita": "Lido di Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1067,7 +1067,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Italia - Ravenna (RA)",
 		"localita": "Marina Romea",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1084,7 +1084,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Lungomare - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1101,7 +1101,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Canalazzo - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1118,7 +1118,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Lunga - Ravenna (RA)",
 		"localita": "Campiano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1135,7 +1135,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1152,7 +1152,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale della Pace - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1169,7 +1169,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale F. Petrarca - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1186,7 +1186,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale della Lirica - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1203,7 +1203,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale G. Pallavicini - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1220,7 +1220,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Cesarea - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1237,7 +1237,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Argine sinistro Fiume Savio - Ravenna (RA)",
 		"localita": "Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1254,7 +1254,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1271,7 +1271,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Cella - Ravenna (RA)",
 		"localita": "Madonna dell'Albero",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1288,7 +1288,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Cesarea - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1305,7 +1305,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Ponte Marino - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1322,7 +1322,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1339,7 +1339,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Staggi - Ravenna (RA)",
 		"localita": "Porto Fuori",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1356,7 +1356,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Italia - Ravenna (RA)",
 		"localita": "Marina Romea",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1373,7 +1373,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Piangipane - Ravenna (RA)",
 		"localita": "Camerlona",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1390,7 +1390,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1407,7 +1407,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Ravegnana - Ravenna (RA)",
 		"localita": "Roncalceci",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1424,7 +1424,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Romagna - Ravenna (RA)",
 		"localita": "Lido di Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1441,7 +1441,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Sinistra Canale Molinetto - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1458,7 +1458,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Casalborsetti - Ravenna (RA)",
 		"localita": "Casalborsetti",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1475,7 +1475,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea - Ravenna (RA)",
 		"localita": "Fosso Ghiaia",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1492,7 +1492,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale F.lli Vivaldi - Ravenna (RA)",
 		"localita": "Lido di Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1509,7 +1509,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via delle Industrie - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1526,7 +1526,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Classense - Ravenna (RA)",
 		"localita": "Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1543,7 +1543,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Casalborsetti - Ravenna (RA)",
 		"localita": "Casalborsetti",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1560,7 +1560,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Sud - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1577,7 +1577,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Trieste - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1594,7 +1594,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Molo Dalmazia - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1611,7 +1611,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Sud - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1628,7 +1628,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Virgilio - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1645,7 +1645,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Sant'Alberto - Ravenna (RA)",
 		"localita": "S.Romualdo",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1662,7 +1662,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale F.lli Vivaldi - Ravenna (RA)",
 		"localita": "Lido di Classe",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1679,7 +1679,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Marina - Ravenna (RA)",
 		"localita": "Lido di Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1696,7 +1696,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Zuccherificio - Ravenna (RA)",
 		"localita": "Mezzano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1713,7 +1713,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Casalborsetti - Ravenna (RA)",
 		"localita": "Casalborsetti",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1730,7 +1730,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Corriera Antica - Ravenna (RA)",
 		"localita": "Mandriole",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1747,7 +1747,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Thaon de Revel Paolo - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1764,7 +1764,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1781,7 +1781,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1798,7 +1798,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Romagna - Ravenna (RA)",
 		"localita": "Lido di Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1815,7 +1815,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via dei Navigatori - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1832,7 +1832,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Costanza - Ravenna (RA)",
 		"localita": "Lido di Dante",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1849,7 +1849,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1866,7 +1866,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1883,7 +1883,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1900,7 +1900,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Budria - Ravenna (RA)",
 		"localita": "S.Pietro in Vincoli",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1917,7 +1917,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale V. Alfieri - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1934,7 +1934,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazzale Adriatico - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1951,7 +1951,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Natale Zen - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1968,7 +1968,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via D. P. Mazzolari - Ravenna (RA)",
 		"localita": "Porto Fuori",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -1985,7 +1985,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Americhe - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2002,7 +2002,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza L. Einaudi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2019,7 +2019,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Molo Dalmazia - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2036,7 +2036,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale dei Salici - Ravenna (RA)",
 		"localita": "Marina Romea",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2053,7 +2053,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Stradone - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2070,7 +2070,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2087,7 +2087,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza G. Mameli - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2104,7 +2104,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Virgilio - Ravenna (RA)",
 		"localita": "Lido Adriano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2121,7 +2121,7 @@
 		"provincia": "RA",
 		"indirizzo": "Circ. San Gaetanino - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2138,7 +2138,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Nord - Ravenna (RA)",
 		"localita": "Mandriole",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2155,7 +2155,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2172,7 +2172,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Petrosa - Ravenna (RA)",
 		"localita": "Campiano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2189,7 +2189,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Gattolo Superiore - Ravenna (RA)",
 		"localita": "S. Alberto",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2206,7 +2206,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via F. Mordani - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2223,7 +2223,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Nord - Ravenna (RA)",
 		"localita": "Mandriole",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2240,7 +2240,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Maggiore - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2257,7 +2257,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2274,7 +2274,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Canala - Ravenna (RA)",
 		"localita": "Santerno",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2291,7 +2291,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Baiona - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2308,7 +2308,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Taverna - Ravenna (RA)",
 		"localita": "S.Pietro in Trento",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2325,7 +2325,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2342,7 +2342,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale F. Rismondo - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2359,7 +2359,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via E. Farini - Ravenna (RA)",
 		"localita": "S.Pietro in Vincoli",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2376,7 +2376,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Romea Sud - Ravenna (RA)",
 		"localita": "Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2393,7 +2393,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza D. Markus - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2410,7 +2410,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Mandriole - Ravenna (RA)",
 		"localita": "Mandriole",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2427,7 +2427,7 @@
 		"provincia": "RA",
 		"indirizzo": "Circ. Al Molino - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2444,7 +2444,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via delle Anse - Ravenna (RA)",
 		"localita": "Savio",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2461,7 +2461,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Argine destro Fiume Lamone - Ravenna (RA)",
 		"localita": "Santerno",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2478,7 +2478,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza Kennedy - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2495,7 +2495,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Argentario - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2512,7 +2512,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza L. Einaudi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2529,7 +2529,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via A. De Gasperi - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2546,7 +2546,7 @@
 		"provincia": "RA",
 		"indirizzo": "Lungomare Cristoforo Colombo - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2563,7 +2563,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via San Mama - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2580,7 +2580,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via C. Cavour - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2597,7 +2597,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza del Popolo - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2614,7 +2614,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2631,7 +2631,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via R. Serra - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2648,7 +2648,7 @@
 		"provincia": "RA",
 		"indirizzo": "Piazza del Popolo - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2665,7 +2665,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Santi Baldini - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2682,7 +2682,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2699,7 +2699,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via C. Ricci - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2716,7 +2716,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via F. Berretti - Ravenna (RA)",
 		"localita": "Porto Fuori",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2733,7 +2733,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Argirocastro - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2750,7 +2750,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via E. Mattei - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2767,7 +2767,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Mentana - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2784,7 +2784,7 @@
 		"provincia": "RA",
 		"indirizzo": "Lungomare Cristoforo Colombo - Ravenna (RA)",
 		"localita": "Punta Marina Terme",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2801,7 +2801,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Maggiore - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2818,7 +2818,7 @@
 		"provincia": "RA",
 		"indirizzo": "Carrarone Chiesa - Ravenna (RA)",
 		"localita": "Mezzano",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2835,7 +2835,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via P. Costa - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2852,7 +2852,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale delle Nazioni - Ravenna (RA)",
 		"localita": "Marina di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2869,7 +2869,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale F. Baracca - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2886,7 +2886,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Erbosa - Ravenna (RA)",
 		"localita": "Bastia di Ravenna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2903,7 +2903,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "San Michele",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2920,7 +2920,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Fosso delle Oche - Ravenna (RA)",
 		"localita": "San Michele",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2937,7 +2937,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Reale - Ravenna (RA)",
 		"localita": "Camerlona",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2954,7 +2954,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Basilica - Ravenna (RA)",
 		"localita": "Conventello",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2971,7 +2971,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "San Michele",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -2988,7 +2988,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Faentina - Ravenna (RA)",
 		"localita": "San Michele",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3005,7 +3005,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Reale - Ravenna (RA)",
 		"localita": "Camerlona",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3022,7 +3022,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Lumiera - Ravenna (RA)",
 		"localita": "Camerlona",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3039,7 +3039,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale Po - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3056,7 +3056,7 @@
 		"provincia": "RA",
 		"indirizzo": "Viale E. Berlinguer - Ravenna (RA)",
 		"localita": "",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3073,7 +3073,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via H. Matisse - Ravenna (RA)",
 		"localita": "Madonna dell'Albero",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
@@ -3090,7 +3090,7 @@
 		"provincia": "RA",
 		"indirizzo": "Via Basilica - Ravenna (RA)",
 		"localita": "Savarna",
-		"type": "Ristorante"
+		"categoria": "Ristorante"
 	}
 }, {
 	"type": "Feature",
