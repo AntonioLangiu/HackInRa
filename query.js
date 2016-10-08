@@ -15,6 +15,7 @@ exports.launchQuery = function (request, response, query, acceptFormat) {
         console.log('STATUS: ' + res.statusCode);
         console.log('HEADERS: ' + JSON.stringify(res.headers));
         res.setEncoding('utf8');
+        var result = "";
         res.on('data', function(chunk) {
             result += chunk;
         });
