@@ -13,7 +13,6 @@
     "http-proxy": "^1.8.1",
     "angular": "latest",
     "angular-route": "latest",
-    "watchify": "latest",
     "jquery": "latest"
 
   },

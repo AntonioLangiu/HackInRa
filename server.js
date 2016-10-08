@@ -17,23 +17,18 @@ app.get('/about', function (request, response) {
 
 
 /* QUERY */
-app.get('/api/:type', function (request, response) {
+app.get('/api/:type', apicache('1 day'), function (request, response) {
    query.listDocsType(request.params.type, function (data){
        response.writeHead(200, {"Content-Type": "application/json"});
        response.end(JSON.stringify(data));
    });
 });
 
-app.get('/api/doc/:id', function (request, response) {
+app.get('/api/doc/:id',apicache('1 day'), function (request, response) {
    query.getDoc(request.params.id, function (data){
        response.writeHead(200, {"Content-Type": "application/json"});
        response.end(JSON.stringify(data));
    });
-});
-
-app.get("/hello", function (request, response) {
-    response.writeHead(200, {"Content-Type": "text/plain"})
-    response.end("Hello World!\n");
 });
 
 app.use(function(req, res) {
