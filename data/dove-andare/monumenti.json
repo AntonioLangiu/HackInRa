@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.209167, 44.425]
+    },
+    "properties": {
+      "categoria": "Chiesa",
+      "titolo": "Mausoleo di Teoderico",
+      "descrizione": "Fatto costruire dallo stesso Teodorico nel 520 d.C. come propria sepoltura, il mausoleo si colloca a circa un chilometro dal centro di Ravenna, in una zona utilizzata durante il regno dei Goti come sepolcreto.",
+      "imperdibile": true,
+      "indirizzo": "Via Delle Industrie, 14 - Ravenna (RA)",
+      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Patrimonio-Unesco/Mausoleo-di-Teoderico",
+      "wikipedia": "https://it.wikipedia.org/wiki/Mausoleo_di_Teodorico",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Teodorico_Mausoleum_-_Ravenna%2C_Italy.JPG",
+      "type": "Luogo"
+    }
+  }
+]
