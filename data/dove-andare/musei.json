@@ -6,8 +6,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Dante Alighieri, 4, 48121 Ravenna RA",
         "telefono": "+39 0544 33667",
         "orario": "10.30-12.00",
@@ -17,7 +15,6 @@
         "wikipedia": "https://it.wikipedia.org/wiki/Centro_dantesco_dei_Frati_minori_conventuali",
         "prezzo": "0",
         "foto": "https://upload.wikimedia.org/wikipedia/it/thumb/2/23/SigilloCD.jpg/204px-SigilloCD.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA061/",
         "type": "Luogo"
     }
@@ -29,8 +26,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Viale Santi Baldini, 4, 48121 Ravenna RA",
         "telefono": "+39 0544 62534",
         "orario": "Lunedì al Venerdì dalle 8.30 alle 12.30 - Martedì e Venerdì, anche, dalle 20.30 – 22.30",
@@ -40,7 +35,6 @@
         "wikipedia": "",
         "prezzo": "5",
         "foto": "http://planet.racine.ra.it/pl_ra/p10.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA006",
         "type": "Luogo"
     }
@@ -52,8 +46,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via degli Orsini n. 4 48020 Savarna Ravenna RA",
         "telefono": "0544 533609",
         "orario": "",
@@ -63,7 +55,6 @@
         "wikipedia": "",
         "prezzo": "0",
         "foto": "http://www.sistemamusei.ra.it/workO/i_i/i_i-280-img-sguri2.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA068/",
         "type": "Luogo"
     }
@@ -75,8 +66,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Dante Alighieri, 4/6 - Ravenna (RA)",
         "telefono": " +39 0544 215676",
         "orario": "Fino al 31 ottobre: dal martedì alla domenica 10 - 18. Speciale Notte d'Oro sabato 8 ottobre: orario continuato 10 - 20. Dal 1 novembre: dal martedì alla domenica 10 - 18",
@@ -86,7 +75,6 @@
         "wikipedia": "",
         "prezzo": "3",
         "foto": "http://www.turismo.ra.it/upload/gallery/scopri_territorio/arte_Cultura/musei-gallerie/museo-dantesco/museo_dantesco_antichi_chiostri_francescani_chiostro.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA032",
         "type": "Luogo"
     }
@@ -98,8 +86,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Vicolo Padenna, 4, 48121 Ravenna RA",
         "telefono": "+39 0544 32056",
         "orario": "Aperto su prenotazione",
@@ -109,7 +95,6 @@
         "wikipedia": "",
         "prezzo": "5",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/casadellemarionette.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA060/",
         "type": "Luogo"
     }
@@ -121,8 +106,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Di Roma, 13 - Ravenna (RA)",
         "telefono": "0544 482477",
         "orario": "9-18. Lunedì chiuso",
@@ -144,8 +127,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Fantuzzi, 4 - Ravenna (RA)",
         "telefono": "+39 331 2663331",
         "orario": "Tutti i giorni (tranne lunedì e giovedì pomeriggio): 10.30 - 12.30 / 15.30 - 19",
@@ -155,7 +136,6 @@
         "wikipedia": "",
         "prezzo": "3.50",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/museo_bambole.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA066/",
         "type": "Luogo"
     }
@@ -167,8 +147,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Baccarini, 3 - Ravenna (RA)",
         "telefono": "+39 0544 482112",
         "orario": "Dal martedì al sabato: 9 - 12.30. Giovedì: 9 - 13",
@@ -178,7 +156,6 @@
         "wikipedia": "https://it.wikipedia.org/wiki/Chiesa_di_San_Romualdo_(Ravenna)",
         "prezzo": "Ingresso gratuito",
         "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ravenna%2C_chiesa_di_San_Romualdo_-_Esterno.jpg/240px-Ravenna%2C_chiesa_di_San_Romualdo_-_Esterno.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA033/",
         "type": "Luogo"
     }
@@ -190,8 +167,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via del Sale, 88 - San Pietro in Campiano",
         "telefono": "+39 0544 36136",
         "orario": "Dal lunedì al venerdì: 9 - 13 / 14 - 17",
@@ -201,7 +176,6 @@
         "wikipedia": "",
         "prezzo": "4",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/default.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA065/",
         "type": "Luogo"
     }
@@ -213,18 +187,15 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via San Vitale, 17 - Ravenna (RA)",
         "telefono": "+39 0544 215618",
         "orario": "Martedì - domenica: 8.30 - 19.30. Chiuso il lunedì, ad eccezione del 15 agosto. Ultimo ingresso: 30 minuti prima dell'orario di chiusura",
         "descrizione": "Situato nel complesso monumentale di San Vitale, il Museo Nazionale di Ravenna raccoglie importanti reperti archeologici, tra cui stele sepolcrali ed epigrafi romane, e collezioni di arti minori. Il nucleo primitivo del patrimonio museale fu costituito nel Settecento dalla paziente ricerca e cura dagli eruditi monaci delle grandi abbazie cittadine. Al primo piano sono esposti, nell’ordinata architettura benedettina, i leggiadri bronzetti rinascimentali, una pregevole raccolta di avori, un ricco nucleo di icone, una sezione dedicata alle ceramiche e un'affascinante collezione di armi antiche. Tra i reperti di maggior prestigio si annoverano capitelli in marmo orientale, sarcofagi decorati e altri manufatti di V e VI secolo. I più noti sono quelli provenienti dai monumenti paleocristiani e bizantini Patrimonio dell’Umanità Unesco, tra cui le transenne e la croce da San Vitale e la sinopia preparatoria al mosaico di Sant’Apollinare in Classe. All'interno del museo si trova anche l’importante ciclo di affreschi del Trecento, capolavoro di Pietro da Rimini, staccato dall’antica chiesa di Santa Chiara in Ravenna.",
         "titolo": "Museo Nazionale di Ravenna",
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Nazionale-di-Ravenna",
-        "wikipedia": "",
+        "wikipedia": "https://it.wikipedia.org/wiki/Museo_nazionale_di_Ravenna",
         "prezzo": "6",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/mnazionale.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA001",
         "type": "Luogo"
     }
@@ -236,8 +207,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via 4 Novembre, 86/a - Ravenna (RA)",
         "telefono": "+39 338 7265650",
         "orario": "Il Museo è visitabile tutto l'anno, previa prenotazione ai seguenti numeri: (+39) 338.7265650 (Vincenzo Cardella) - Fax. (+39) 0544.531013 o scrivendo a: museo@hdsitalia.org - biblioteca@hdsitalia.org",
@@ -247,7 +216,6 @@
         "wikipedia": "",
         "prezzo": "2.50",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/museo_subacqueo.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA010",
         "type": "Luogo"
     }
@@ -259,8 +227,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Via Rivaletto, 25 - Ravenna (RA)",
         "telefono": "+39 0544 529260",
         "orario": "Martedì, mercoledì e giovedì:  9.30 - 13. Venerdì, sabato, domenica e festivi: 9.30 - 13 / 14 - 18 Aperture straordinarie il 1 novembre e 8 dicembre.",
