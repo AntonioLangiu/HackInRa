@@ -1,23 +1,19 @@
 [{
-    "categoria": "Monumento",
-    "imperdibile": true,
+    "categoria": "Introvabile",
     "coordinate": null,
     "indirizzo": "Via Alighieri Dante, 9 - Ravenna (RA)",
     "descrizione": "Costruito da Camillo Morigia nel 1780, il tempietto conserva le ossa di Dante Alighieri. L'esterno \u00e8 in stile neoclassico, all'interno sopra il sarcofago \u00e8 presente un rilievo di Pietro Lombardo scolpito nel 1483 raffigurante Dante davanti a un leggio",
     "titolo": "Tomba di Dante e Quadrarco di Braccioforte",
-    "urlScheda": "\t\t\thttp://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Monumenti-alla-memoria/Tomba-di-Dante-e-Quadrarco-di-Braccioforte\t\t",
     "wikipedia": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco_(Ravenna)",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Museo_arcivescovile_Ravenna_1.JPG/800px-Museo_arcivescovile_Ravenna_1.JPG",
-    "type": "Luogo"
+    "type": "Special"
 },
 {
-    "categoria": "Monumento",
     "coordinate": null,
     "indirizzo": "Via Alighieri Dante, 9 - Ravenna (RA)",
     "descrizione": "Costruito da Camillo Morigia nel 1780, il tempietto conserva le ossa di Dante Alighieri. L'esterno \u00e8 in stile neoclassico, all'interno sopra il sarcofago \u00e8 presente un rilievo di Pietro Lombardo scolpito nel 1483 raffigurante Dante davanti a un leggio",
     "titolo": "Tomba di Dante e Quadrarco di Braccioforte",
-    "urlScheda": "\t\t\thttp://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Monumenti-alla-memoria/Tomba-di-Dante-e-Quadrarco-di-Braccioforte\t\t",
-    "sikipedia": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco_(Ravenna)",
+    "wikipedia": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco_(Ravenna)",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Museo_arcivescovile_Ravenna_1.JPG/800px-Museo_arcivescovile_Ravenna_1.JPG",
-    "type": "Luogo"
+    "type": "Special"
 }]

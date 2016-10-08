@@ -1,10 +1,11 @@
 [{
-    "Nome": "Brutto anatroccolo",
-    "Scheda": "http://example.com",
-    "UrlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
-    "TripAdvisor": "http://example.com",
-    "Indirizzo": "Via di qua e di là, 12",
-    "Lat": 48.3,
-    "Long": 42.3,
-    "Ultimo aggiornamento": "20161007"
+    "nome": "Brutto anatroccolo",
+    "scheda": "http://example.com",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
+    "tripAdvisor": "http://example.com",
+    "indirizzo": "Via di qua e di là, 12",
+    "lat": 48.3,
+    "long": 42.3,
+    "ultimo aggiornamento": "20161007",
+    "type": "Ristorante"
 }]
