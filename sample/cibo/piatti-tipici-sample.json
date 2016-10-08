@@ -1,20 +1,22 @@
 [{
-    "Nome": "Cappelletti",
-    "Descrizione": "I Cappelletti sono anche detti cappellett",
-    "Scheda": "http://example.com",
-    "UrlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
-    "Wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
-    "Categoria": "primo piatto",
-    "Settore" : "pasta",
-    "Ricetta": "http://example.com"
+    "nome": "Cappelletti",
+    "descrizione": "I Cappelletti sono anche detti cappellett",
+    "scheda": "http://example.com",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
+    "wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
+    "categoria": "primo piatto",
+    "settore" : "pasta",
+    "ricetta": "http://example.com",
+    "type": "Piatto"
 },
 {
-    "Nome": "Cappelletti",
-    "Descrizione": "I Cappelletti sono anche detti cappellett",
-    "Scheda": "http://example.com",
-    "UrlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
-    "Wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
-    "Categoria": "primo piatto",
-    "Settore" : "pasta",
-    "Ricetta": "http://example.com"
+    "nome": "Cappelletti",
+    "descrizione": "I Cappelletti sono anche detti cappellett",
+    "scheda": "http://example.com",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
+    "wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
+    "categoria": "primo piatto",
+    "settore" : "pasta",
+    "ricetta": "http://example.com",
+    "type": "Piatto"
 }]

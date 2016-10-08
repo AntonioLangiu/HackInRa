@@ -1,0 +1,10 @@
+[{"titolo": "Patrimonio dell'Unesco",
+  "descrizione": "Visita agli 8 monumenti di ravenna figuranti nella lista Unesco",
+  "mezzoConsigliato": "a piedi",
+  "prezzoTotaleStimato": "10 euro",
+  "distanzaTotaleStimata": "10 Km",
+  "immagineMappa": "http://www.abtechno.org/media/scarica_sul_pc_google_mappe_stradali_3.jpg",
+  "carousel": ["http://www.turismo.ra.it/upload/gallery/scopri_territorio/arte_Cultura/unesco/mausoleo_di_galla_placidia/mausoleo_di_galla_placidia_cielo_stellato_cupola.jpg", "http://www.turismo.ra.it/upload/gallery/scopri_territorio/arte_Cultura/unesco/battistero_neoniano/battistero_neoniano_autunno.jpg"],
+  "tappe": [1, 2, 3, 4],
+  "type": "Itinerario"
+}]
