@@ -1,0 +1,201 @@
+[
+  {
+    "titolo": "Castrato di Romagna",
+    "descrizione": "Con il termine “castrato” (Castré, brasula ‘d castrè) si indica solitamente il maschio ovino castrato e le carni che se ne ricavano",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Carne/Castrato-di-Romagna",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Table_u_d%C3%A9co_3.jpg/1920px-Table_u_d%C3%A9co_3.jpg",
+    "wikipedia": "",
+    "categoria": "secondo piatto",
+    "settore" : "carne",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  { 
+    "titolo": "Mora romagnola",
+    "descrizione": "La Mora Romagnola è una razza suina che ha le sue origini in Emilia-Romagna (particolarmente nelle province di Forlì-Cesena e Ravenna)",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Carne/Mora-romagnola",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Reindeer_steak.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Mora_Romagnola",
+    "categoria": "secondo piatto",
+    "settore" : "carne",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Cozze e vongole",
+    "descrizione": "Le vongole e le cozze sono considerate prodotti d’eccellenza delle acque della Riviera Romagnola",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pesce/Cozze-e-vongole",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg",
+    "wikipedia": "",
+    "categoria": "secondo piatto",
+    "settore" : "pesce",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Pesce Azzurro",
+    "descrizione": "All'interno della denominazione generica \"Pesce Azzurro\" ritroviamo alcune varietà di pesci generalmente di piccola pezzatura, di varia forma e sfumature di colorazione argentea, molto presenti nelle acque a largo della costa ravennate",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pesce/Pesce-azzurro",
+    "urlImmagine": "http://www.turismo.ra.it/upload/sfondi_header/pesce_azzurro.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Pesce_azzurro",
+    "categoria": "secondo piatto",
+    "settore" : "pesce",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Asparago di pineta",
+    "descrizione": "L’Asparago o asparagina (in dialetto romagnolo conosciuto come sparaz, sparz oppure sparazena) ha il suo habitat naturale nelle pinete ravennati.",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Verdure/Asparago-di-Pineta",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Green_Asparagus_New_York_11_May_2006.jpg",
+    "wikipedia": "",
+    "categoria": "contorno",
+    "settore" : "verdure",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Scalogno di Romagna",
+    "descrizione": "Lo scalogno di Romagna è un tipo di cipolla della specie “Allium Ascalonicum”. Pur essendo Riolo Terme la zona di produzione tipica di questo prodotto, anche nella cucina ravennate è molto presente.",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Condimenti_-salse-e-insaporitori/Scalogno-di-Romagna",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/9/98/Scalogno_di_Romagna.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Scalogno_di_Romagna",
+    "categoria": "contorno",
+    "settore" : "verdure",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Strigolo",
+    "descrizione": "Lo Stridolo o Strigolo è una pianta annuale, cespitosa, dalle foglie ovali, di color verde brillante, lunghe sino a 8 cm, molto comune e diffusa in tutta la Romagna",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Condimenti_-salse-e-insaporitori/Strigolo",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/6/63/Silene_vulgaris1.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Silene_vulgaris",
+    "categoria": "contorno",
+    "settore" : "verdure",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Piadina",
+    "descrizione": "La piada o piadina può essere considerata a ragione del vero la più classica delle specialità romagnole tanto che il poeta Giovanni Pascoli osò definirla “il cibo nazionale dei romagnoli”",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pane-di-Romagna/Piadina",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Piadina.jpg/1024px-Piadina.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Piadina_romagnola",
+    "categoria": "",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Pizza Fritta",
+    "descrizione": "La piadina (piè) fritta, ovvero la pizza fritta, è una ricetta romagnola, tipica della valle del Santerno. Si presenta come una sorta di pane fritto di forma circolare, abbastanza sottile e dorato",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pane-di-Romagna/Pizza-fritta",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pizza_fritta.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Pizza_fritta_(gastronomia)",
+    "categoria": "",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Caterine",
+    "descrizione": "Le Caterine sono dei tipici biscotti ravennati a forma di bambolina, di gallina o di galletto, ricoperti di cioccolata e rifiniti con decorazioni di zucchero colorato",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Caterine",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/I_cantuccini.jpg/1920px-I_cantuccini.jpg",
+    "wikipedia": "",
+    "categoria": "",
+    "settore" : "",
+    "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Caterine",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "La Torta Teodora",
+    "descrizione": "La Torta \"Teodora\", nata nel 2002, deve il suo nome all’imperatrice di Bisanzio, moglie del grande Giustiniano I, rappresentata nel mosaico dell’area absidale della Chiesa di San Vitale a Ravenna",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Torta-Teodora",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Torta_fatta_in_casa.jpg",
+    "wikipedia": "",
+    "categoria": "",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Ravennino",
+    "descrizione": "Il Ravennino è il cioccolatino di Ravenna, presentato all’edizione 2011 ART & CIOCC, ideato dal Maitre Chocolatier Valter Pavanetto per celebrare l’ormai consolidato connubio tra il cioccolato e la città di Ravenna",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Ravennino",
+    "urlImmagine": "http://www.ravennaintorno.it/var/ravenna_intorno/storage/images/enogastronomia/menu-del-gusto/dolci/ravennino/21292-14-ita-IT/Ravennino_foto_scheda.jpg",
+    "wikipedia": "",
+    "categoria": "",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Pesca e Nettarina di Romagna Igp",
+    "descrizione": "La pesca e la nettarina di Romagna, nate dall’incrocio di diverse tipologie a polpa gialla e bianca, sono tra le prime varietà di pesche ad aver ottenuto il riconoscimento I.g.p. in Europa",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Frutta/Pesca-e-Nettarina-di-Romagna-Igp",
+    "urlImmagine": "",
+    "wikipedia": "https://it.wikipedia.org/wiki/Pesca_e_Nettarina_di_Romagna",
+    "categoria": "ortofrutticoli e cereali",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Squacquerone di Romagna",
+    "descrizione": "Lo Squacquerone di Romagna, detto anche Squaquaron, è un prodotto tipico del territorio romagnolo, di origine rurale, consumato tradizionalmente con la piadina.",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Formaggi/Squacquerone-di-Romagna",
+    "urlImmagine": "https://www.google.it/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwib3qSogMzPAhUJ5xoKHeRlDFQQjRwIBw&url=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FRicotta_di_pecora&bvm=bv.135258522,d.d2s&psig=AFQjCNEMUWUmNhmJo-ixJ44GzC0l5P5q1g&ust=1476043396948683",
+    "wikipedia": "https://it.wikipedia.org/wiki/Squacquerone_di_Romagna",
+    "categoria": "formaggio",
+    "settore" : "",
+    "ricetta": "",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Cappelletti",
+    "descrizione": "I cappelletti, detti anche caplèt, sono un piatto tradizionale della cucina romagnola. Si tratta di una pasta all'uovo tagliata a quadrati, riempiti di formaggio (ricotta, raviggiolo o casatella, parmigiano)",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Cappelletti",
+    "urlImmagine": "",
+    "wikipedia": "https://it.wikipedia.org/wiki/File:Cappelletti1.JPG",
+    "categoria": "pasta",
+    "settore" : "primo piatto",
+    "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Cappelletti-al-rag%C3%B9",
+    "type": "Piatto"
+
+  },
+  {
+    "titolo": "Maltagliati",
+    "descrizione": "I maltagliati sono un tipo di pasta all’uovo riconosciuta come prodotto tipico dalla regione Emilia-Romagna",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Maltagliati",
+    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg/225px-Pasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg",
+    "wikipedia": "https://it.wikipedia.org/wiki/Maltagliati",
+    "categoria": "pasta",
+    "settore" : "primo piatto",
+    "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Maltagliati-con-fagioli",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Passatelli",
+    "descrizione": "I passatelli sono una delle più classiche minestre della Romagna, solitamente cucinate durante i giorni di festa",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Passatelli",
+    "urlImmagine": "https://it.wikipedia.org/wiki/File:Passatelli-piato.JPG",
+    "wikipedia": "https://it.wikipedia.org/wiki/Passatelli",
+    "categoria": "pasta",
+    "settore" : "primo piatto",
+    "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Passatelli-in-brodo",
+    "type": "Piatto"
+  },
+  {
+    "titolo": "Spoja lorda",
+    "descrizione": "La Spoja lorda o Sfoia lorda (minestra imbottita o mnëstra imbutida) è una tradizionale pasta all’uovo romagnolo, di forma quadrata, il cui ripieno è costituito da ricotta (o Raveggiolo), uova, parmigiano e sale",
+    "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Spoja-lorda",
+    "urlImmagine": "",
+    "wikipedia": "",
+    "categoria": "pasta",
+    "settore" : "primo piatto",
+    "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Spoja-lorda-in-brodo",
+    "type": "Piatto"
+  }
+]
