@@ -25,8 +25,7 @@ app.get('/api/doc/:id', apicache('1 day'), function (request, response) {
 app.get('/api/geo/nearest', apicache('1 day'), function (request, response) {
    query.getLocations(request.query, function (data) {
        response.writeHead(200, {"Content-Type": "application/json"});
-       // XXX The following would throw exception if `data` is invalid
-       response.end(JSON.stringify(JSON.parse(data)["rows"]));
+       response.end(JSON.stringify(data));
    });
 });
 
