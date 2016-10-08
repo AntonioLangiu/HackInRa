@@ -64,10 +64,11 @@
                     <div class="modal-content">
                       <h4>{{item.properties.titolo}}</h4>
                       <p>{{item.properties.descrizione}}</p>
+                        <p><b>Indirizzo</b></p>
+                        <p>{{item.properties.indirizzo}}</p>
                       <div class="row">
-                        <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
-                        <p class="col s12 m3"><b>Indirizzo</b></p>
-                        <p class="col s12 m4">{{item.properties.indirizzo}}</p>
+                    <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
+		    <div class="col s12 m5" id="{{'mapid'+item.id}}"></div>
                       </div>
                     </div>
                     <div class="modal-footer">

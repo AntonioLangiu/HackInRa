@@ -1,5 +1,6 @@
 var angular = require ('angular');
 var app = angular.module('hackinra',[]);
+var leaflet = require('leaflet');
 
 app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $scope.appName = 'ScopriRa';
@@ -16,7 +17,10 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
 
   $scope.show_modal_id = function(id) {
     $('#'+id).openModal();
-    console.log("opening id " + id);
+    var mymap = leaflet.L.map('mapid'+id).setView(
+        [44.4165943,12.1966006], 15);
+
+
   }
 
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
@@ -50,5 +54,4 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   });
 
 
-  $scope.modalTrigger = function () { $('#modal1').openModal() }
 }]);
