@@ -15,16 +15,20 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Top Attrazioni', link: '#'}
   ];
 
-  $scope.show_modal_id = function (item) {
+  $scope.show_modal_id = function (item, suffix) {
+    var _id = item._id;
+    if (suffix !== undefined) {
+        _id += "_" + suffix;
+    }
     console.log(item.geometry.coordinates);
-    $('#' + item._id).openModal();
+    $('#' + _id).openModal();
 
     /* XXX This is very ghetto to load the map when the DOM is settled. A
            better solution would be welcome, but perhaps not now. */
     setTimeout(function () {
         var latitude = item.geometry.coordinates[0];
         var longitude = item.geometry.coordinates[1];
-        var mymap = leaflet.map('mapid' + item._id).setView(
+        var mymap = leaflet.map('mapid' + _id).setView(
             [longitude, latitude], 15);
 
         leaflet.tileLayer(
@@ -67,9 +71,13 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     $scope.natura = res.data;
   });
   $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Museo').then(function(res) {
-    $scope.museo = res.data;
-  });$http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento').then(function(res) {
-    $scope.monumento = res.data;
+    $scope.musei = res.data;
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento').then(function(res) {
+    $scope.monumenti = res.data;
+  });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Mosaici').then(function(res) {
+    $scope.mosaici = res.data;
   });
 
 
