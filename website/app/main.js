@@ -14,6 +14,11 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Top Attrazioni', link: '#'}
   ];
 
+  $scope.show_modal_id = function(id) {
+    $('#'+id).openModal();
+    console.log("opening id " + id);
+  }
+
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
               +  " sed do eiusmod tempor incididunt ut labore et dolore magna"
               +  " aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
