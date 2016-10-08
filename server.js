@@ -17,9 +17,23 @@ app.get('/about', function (request, response) {
 
 
 /* QUERY */
-//app.get('/archimede/:type/:query/', apicache('1 day'), function (request, response) {
-//    query.launchQuery(request, response, request.params.type, decodeURIComponent(request.params.query), "application/json");
-//});
+app.get('/api/:type', function (request, response) {
+   query.listDocsType(request.params.type, function (data){
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+app.get('/doc/:id', function (request, response) {
+   query.getDoc(request.params.id, function (data){
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+app.get('/_all_docs', apicache('1 day'), function (request, response) {
+    query.launchQuery(request, response, request.params.type, decodeURIComponent(request.params.query), "application/json");
+});
 
 app.get("/hello", function (request, response) {
     response.writeHead(200, {"Content-Type": "text/plain"})
