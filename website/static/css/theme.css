@@ -1,4 +1,9 @@
+@media screen and (max-width:640px) {
 .modal_edit {
-
-
+  top: 114px;
+  width: 100%;
+  bottom: 0px;
+  height: calc(100% - 58px) !important;
+  max-height: 100%;
+}
 }
