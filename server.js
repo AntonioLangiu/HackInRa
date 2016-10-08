@@ -5,8 +5,9 @@ var querystring = require('querystring');
 var port = process.env.VCAP_APP_PORT || 8080;
 var oneDay = 86400000;
 var app = express();
+var cors = require("cors");
 
-app.use(require("cors")()); //XXX
+app.use(cors());
 
 app.use('/', express.static('./website/static', { maxAge: oneDay }));
 
