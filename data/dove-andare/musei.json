@@ -231,7 +231,7 @@
         "telefono": "+39 0544 529260",
         "orario": "Martedì, mercoledì e giovedì:  9.30 - 13. Venerdì, sabato, domenica e festivi: 9.30 - 13 / 14 - 18 Aperture straordinarie il 1 novembre e 8 dicembre.",
         "descrizione": "Il Museo NatuRa, Museo Ravennate di Scienze Naturali Alfredo Brandolini si trova nella frazione di Sant'Alberto, a pochi chilometri dalla città di Ravenna, alle porte del Parco del Delta del Po. È ospitato all'interno di un edificio storico denominato Palazzone, in passato adibito a osteria per viandanti, commercianti e pellegrini. Il Museo comprende una preziosa collezione ornitologica donata da Alfredo Brandolini, naturalista ravennate dei primi anni del '900 e numerosi altri reperti provenienti da donazioni avvenute nel corso degli anni. Ospita inoltre una collezione di conchiglie del mare Adriatico e alcuni esemplari di rettili e mammiferi tipici del territorio ed esotici. Il Museo è sede del Centro Visite del Parco del Delta del Po - Stazione Pineta San Vitale e Pialasse di Ravenna, punto di informazione e di documentazione per i visitatori nonché punto di partenza per visite sul territorio a piedi, in bici o in pulmino elettrico. La visita al Museo e le escursioni sul territorio possono essere libere o guidate.",
-        "titolo": "Museo TAMO - Tutta l'Avventura del Mosaico ",
+        "titolo": "NatuRa - Museo Ravennate di Scienze Naturali \"Alfredo Brandolini\"",
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/NatuRa---Museo-di-Scienze-Naturali-%22Alfredo-Brandolini%22",
         "wikipedia": "",
         "prezzo": "3",
@@ -248,8 +248,6 @@
     },
     "properties": {
         "categoria": "Museo",
-        "imperdibile": true,
-        "coordinate": null,
         "indirizzo": "Piazza Arcivescovado, 1 - Ravenna (RA)",
         "telefono": "+39 0544 541688",
         "orario": "Fino al 30 settembre: tutti i giorni 9 - 19. Ottobre: tutti i giorni 9.30 - 17.30. Da novembre: tutti i giorni 10 - 17",
@@ -258,9 +256,29 @@
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Arcivescovile",
         "wikipedia": "https://it.wikipedia.org/wiki/Museo_arcivescovile_di_Ravenna",
         "prezzo": "9.50",
-        "foto": "http://www.turismo.ra.it/upload/sfondi_header/marcivescovile.jpg",
+        "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cappella_arcivescovile_Ravenna_2.JPG",
         "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA011/",
         "type": "Luogo"
-    }
+      }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.1997773196, 44.4137851238]
+        },
+        "properties": {
+            "categoria": "Museo",
+            "indirizzo": "Via Rondinelli Nicolò, 4 - Ravenna (RA)",
+            "orario": "Fino al 30 ottobre: dal lunedì al venerdì 10 - 14; sabato e domenica 10 - 18; Dal 31 ottobre al 4 dicembre: dal lunedì al venerdì 10 - 17",
+            "descrizione": "Il Complesso di San Nicolò ospita il Museo Tamo - Tutta l'Avventura del Mosaico, uno spazio interamente dedicato all'arte musiva, che ogni anno rinnova e amplia le proprie collezioni. Il suggestivo percorso museale ci guida tra i reperti eccellenti (molti dei quali inediti) del patrimonio musivo di Ravenna e del suo territorio dall'età antica fino a giungere, attraverso il periodo tardoantico e medievale, alle produzioni di artisti moderni e contemporanei e a saggi di mosaico industriale.",
+            "titolo": "TAMO - Tutta l'Avventura del Mosaico",
+            "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Tamo---Tutta-l'avventura-del-mosaico",
+            "wikipedia": "https://it.wikipedia.org/wiki/Tutta_l%27avventura_del_mosaico",
+            "prezzo": "4",
+            "foto": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Museo_TAMO_30.JPG",
+            "mosaico": true,
+            "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA071",
+            "type": "Luogo"
+        }
 }]
