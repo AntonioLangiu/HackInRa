@@ -1,0 +1,20 @@
+[{
+    "Nome": "Cappelletti",
+    "Descrizione": "I Cappelletti sono anche detti cappellett",
+    "Scheda": "http://example.com",
+    "UrlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
+    "Wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
+    "Categoria": "primo piatto",
+    "Settore" : "pasta",
+    "Ricetta": "http://example.com"
+},
+{
+    "Nome": "Cappelletti",
+    "Descrizione": "I Cappelletti sono anche detti cappellett",
+    "Scheda": "http://example.com",
+    "UrlImmagine": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cappelletti1.JPG",
+    "Wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
+    "Categoria": "primo piatto",
+    "Settore" : "pasta",
+    "Ricetta": "http://example.com"
+}]
