@@ -22,6 +22,9 @@ exports.listDocsType = function (type, cb) {
     db.find({selector:{"properties": {"categoria": type}}}, function (err, data) {
       console.log("listDocsType:", data);
       // TODO: do we need to check for `docs` being undefined here?
+      if (docs === undefined) {
+        return;
+      } 
       cb(data.docs);
     });
   });
