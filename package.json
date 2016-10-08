@@ -4,16 +4,23 @@
   "description": "Project for Hackathon Ravenna",
   "dependencies": {
     "apicache": "^0.2.2",
+    "browserify": "^13.1.0",
     "cf-deployment-tracker-client": "*",
     "cloudant": "^1.5.0",
     "commander": "^2.6.0",
     "express": "~4.x",
     "http-post": "^0.1.1",
-    "http-proxy": "^1.8.1"
+    "http-proxy": "^1.8.1",
+    "angular": "latest",
+    "angular-route": "latest",
+    "watchify": "latest",
+    "jquery": "latest"
+
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "prestart": "./node_modules/.bin/browserify website/app/main.js -o website/static/js/bundle.js"
   },
   "repository": {
     "type": "git",

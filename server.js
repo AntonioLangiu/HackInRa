@@ -7,7 +7,7 @@ var port = process.env.VCAP_APP_PORT || 8080;
 var oneDay = 86400000;
 var app = express();
 
-app.use('/',express.static('.', { maxAge: oneDay }));
+app.use('/',express.static('./website/static', { maxAge: oneDay }));
 
 
 /* PAGES */
@@ -29,10 +29,6 @@ app.get('/api/doc/:id', function (request, response) {
        response.writeHead(200, {"Content-Type": "application/json"});
        response.end(JSON.stringify(data));
    });
-});
-
-app.get('/_all_docs', apicache('1 day'), function (request, response) {
-    query.launchQuery(request, response, request.params.type, decodeURIComponent(request.params.query), "application/json");
 });
 
 app.get("/hello", function (request, response) {
