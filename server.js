@@ -8,6 +8,20 @@ var app = express();
 
 app.use('/', express.static('./website/static', { maxAge: oneDay }));
 
+app.get('/api/all/imperdibili', apicache('1 day'), function (request, response) {
+   query.listCategoryBool("imperdibile", function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+app.get('/api/all/mosaici', apicache('1 day'), function (request, response) {
+   query.listCategoryBool("mosaico", function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
 app.get('/api/all/:type', apicache('1 day'), function (request, response) {
    query.listDocsType(request.params.type, function (data) {
        response.writeHead(200, {"Content-Type": "application/json"});
