@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScopriR&aacute;: scopri Ravenna</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body ng-app="hackinra" ng-controller="MainCtrl">
+    <script>
+      $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+      });
+
+    </script>
+    <div ng-include="'header.html'"></div>
+    <div class="container">
+
+      <div class="row">
+         <div class="col s12" style="margin-top: 10px;">
+           <ul class="tabs">
+             <li class="tab col s3"><a href="#musei">Musei</a></li>
+             <li class="tab col s3"><a href="#chiese">Chiese</a></li>
+             <li class="tab col s3"><a href="#mosaici">Mosaici</a></li>
+             <li class="tab col s3"><a href="#attrazioni">Attrazioni</a></li>
+             <li class="tab col s3"><a href="#natura">Natura</a></li>
+
+           </ul>
+         </div>
+         <div id="musei" class="col s12">
+
+         </div>
+
+         <!-- start with chiese -->
+
+
+         <div id="chiese" class="col s12">
+
+           <!-- Modal Structure -->
+           <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+
+                <p>{{lorem+lorem+lorem}}</p>
+                <div class="row">
+                  <h5 class="col s12 m3"><b>Indirizzo</b></h5>
+                  <h5 class="col s12 m9">Via Argentario, 22 - Ravenna (RA)</h5>
+                </div>
+                <img class="responsive-img" src="img/img1.jpg">
+              </div>
+              <div class="modal-footer">
+                 <img style="width: 42px; height: 42px;" src="img/wiki.png">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
+              </div>
+            </div>
+
+           <div class="row">
+             <div class="col s12 m6 l4" ng-repeat="item in chiese">
+                <div class="card small">
+                 <div class="card-image waves-effect waves-block waves-light modal-trigger">
+                 <a onclick="$('#modal1').openModal()">
+                   <img href="#modal1" src="{{item.properties.foto}}">
+                 </a>
+                 </div>
+                  <div class="card-content">
+                   <span class="card-title grey-text text-darken-4">
+                      {{item.properties.titolo}}<i class="material-icons right">more_vert</i>
+                    </span>
+                   <a onclick="$('#modal1').openModal()">Modal</a>
+
+                   </div>
+                   <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                   </div>
+                 </div>
+               </div>
+           </div>
+         </div>
+
+         <div id="mosaici" class="col s12">Test 3</div>
+         <div id="attrazioni" class="col s12">Test 3</div>
+         <div id="natura" class="col s12">Test 3</div>
+       </div>
+    </div>
+
+    <div ng-include="'footer.html'"></div>
+
+  </body>
+</html>
