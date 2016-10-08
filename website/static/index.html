@@ -1,150 +1,164 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ScopriRA: scopri Ravenna</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bundle.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <style>
-        .card-title-bolder {
-            font-weight: 500;
-            text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-        }
-    </style>
-  </head>
-    <body ng-app="hackinra" ng-controller="MainCtrl">
-      <div ng-include="'header.html'"></div>
-      <br/>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="card  hoverable">
-              <a href="dove_andare.html">
-              <div class="card-image">
-                <img src="img/dove_andare.jpg">
-                <span class="card-title card-title-bolder">Dove Andare</span>
-              </div>
-              </a>
-              <div class="card-action">
-                <a href="dove_andare.html">Scopri dove andare</a>
-              </div>
+<head>
+  <title>ScopriRA: scopri Ravenna</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bundle.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .card-title-bolder {
+      font-weight: 500;
+      text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+    }
+    #intornoImg {
+      opacity: 0.5;
+    }
+    #container {
+      width: 100%;
+      position: relative;
+    }
+    #text {
+      z-index: 100;
+      position: absolute;
+      color: black;
+      font-size: 24px;
+      left: 35%;
+      top: 10px;
+    }
+  </style>
+</head>
+
+<body ng-app="hackinra" ng-controller="MainCtrl">
+  <div ng-include="'header.html'"></div>
+  <br/>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <a href="dove_andare.html">
+            <div class="card-image">
+              <img src="img/dove_andare.jpg">
+              <span class="card-title card-title-bolder">Dove Andare</span>
             </div>
+          </a>
+          <div class="card-action">
+            <a href="dove_andare.html">Scopri dove andare</a>
           </div>
-           <div class="col s12 m4">
-             <div class="card  hoverable">
-               <div class="card-image">
-                 <img src="img/cosa_fare.jpg">
-                 <span class="card-title card-title-bolder">Cosa fare</span>
-               </div>
-               <div class="card-action">
-                 <a href="#dove_andare">Scopri le attività</a>
-               </div>
-             </div>
-           </div>
-           <div class="col s12 m4">
-             <div class="card  hoverable">
-               <div class="card-image">
-                 <img src="img/cibo.jpg">
-                 <span class="card-title card-title-bolder">Cibo</span>
-               </div>
-               <div class="card-action">
-                 <a href="#dove_andare">Scopri le specialità</a>
-               </div>
-             </div>
-           </div>
-         </div>
-         <div class="row">
-               <div class="col s12 m6">
-                 <div class="card blue-grey darken-1">
-                   <div class="card-content white-text">
-                     <span class="card-title">Card Title</span>
-                     <p>I am a very simple card. I am good at containing small bits of information.
-                     I am convenient because I require little markup to use effectively.</p>
-                   </div>
-                   <div class="card-action"  style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
-                   </div>
-                 </div>
-               </div>
-
-               <div class="col s12 m6">
-                 <div class="card amber lighten-2">
-                   <div class="card-content white-text">
-                     <span class="card-title">Card Title</span>
-                     <p>I am a very simple card. I am good at containing small bits of information.
-                     I am convenient because I require little markup to use effectively.</p>
-                   </div>
-                   <div class="card-action"  style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
-                   </div>
-                 </div>
-               </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <div class="card-image">
+            <img src="img/cosa_fare.jpg">
+            <span class="card-title card-title-bolder">Cosa fare</span>
           </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="card  hoverable">
-                <div class="card-image">
-                  <img src="img/storia.jpg">
-                  <span class="card-title card-title-bolder">Storia</span>
-                </div>
-                <div class="card-action">
-                  <a href="#dove_andare">Scopri la storia della città</a>
-                </div>
-              </div>
-            </div>
-             <div class="col s12 m4">
-               <div class="card  hoverable">
-                 <div class="card-image">
-                   <img src="img/itinerario.jpg">
-                   <span class="card-title card-title-bolder">Itinerari</span>
-                 </div>
-                 <div class="card-action">
-                   <a href="#dove_andare">Scopri gli Itinerari</a>
-                 </div>
-               </div>
-             </div>
-             <div class="col s12 m4">
-               <div class="card  hoverable">
-                 <div class="card-image">
-                   <img src="img/mappa.jpg">
-                   <span class="card-title card-title-bolder">Mappa</span>
-                 </div>
-                 <div class="card-action">
-                   <a href="#dove_andare">Mappa e info utili</a>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="row">
-                 <div class="col s12 m6">
-                   <div class="card light-green lighten-2">
-                     <div class="card-content white-text">
-                       <span class="card-title">Card Title</span>
-                       <p>I am a very simple card. I am good at containing small bits of information.
-                       I am convenient because I require little markup to use effectively.</p>
-                     </div>
-                     <div class="card-action"  style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
-                     </div>
-                   </div>
-                 </div>
+          <div class="card-action">
+            <a href="#dove_andare">Scopri le attività</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <div class="card-image">
+            <img src="img/cibo.jpg">
+            <span class="card-title card-title-bolder">Cibo</span>
+          </div>
+          <div class="card-action">
+            <a href="#dove_andare">Scopri le specialità</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                 <div class="col s12 m6">
-                   <div class="card orange lighten-2">
-                     <div class="card-content white-text">
-                       <span class="card-title">Card Title</span>
-                       <p>I am a very simple card. I am good at containing small bits of information.
-                       I am convenient because I require little markup to use effectively.</p>
-                     </div>
-                     <div class="card-action"  style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
-                     </div>
-                   </div>
-                 </div>
-            </div>
-
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <div class="card-image">
+            <img src="img/storia.jpg">
+            <span class="card-title card-title-bolder">Storia</span>
+          </div>
+          <div class="card-action">
+            <a href="#dove_andare">Scopri la storia della città</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <div class="card-image">
+            <img src="img/itinerario.jpg">
+            <span class="card-title card-title-bolder">Itinerari</span>
+          </div>
+          <div class="card-action">
+            <a href="#dove_andare">Scopri gli Itinerari</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card  hoverable">
+          <div class="card-image">
+            <img src="img/mappa.jpg">
+            <span class="card-title card-title-bolder">Mappa</span>
+          </div>
+          <div class="card-action">
+            <a href="#dove_andare">Mappa e info utili</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <a href="attorno-a-me.html"><img id="intornoImg" src="img/attorno-a-me.png" width="100%"/></a>
+      <p id="text">
+        <a class="waves-effect waves-light btn" href="attorno-a-me.html">Guarda attorno a te!</a>
+      </p>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <p><i>Oh, come il mio cuore arse di fanciullesca passione<br/>
+                          Quando lontano oltre falaschi e stagno<br/>
+                          Vidi quella Città Santa ergersi netta,<br/>
+                          Coronata della sua colonna di torri! - Avanti e avanti<br/>
+                          Galoppai, in gara contro il sole calante,<br/>
+                          E prima che l'ultimo bagliore vermiglio fosse trascorso,<br/>
+                          Fui entro le mura di Ravenna, finalmente!</i>
+            </p>
+            <p align="right">Oscar Wilde</p>
+          </div>
+          <div class="card-action" style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
+          </div>
+        </div>
       </div>
 
-      <div ng-include="'footer.html'"></div>
-    </body>
-  </html>
+      <div class="col s12 m6">
+        <div class="card orange lingthen-2">
+          <div class="card-content white-text">
+            <p text-align="right"><i>Ravenna, glauca notte rutilante d'oro,<br/>
+                          sepolcro di violenti custodito<br/>
+                          da terribili sguardi,<br/>
+                          cupa carena grave d'un incarco<br/>
+                          imperiale, ferrea, construtta<br/>
+                          di quel ferro onde il Fato<br/>
+                          è invincibile, spinta dal naufragio<br/>
+                          ai confini del mondo,<br/>
+                          sopra la riva estrema!</i>
+            </p>
+            <p align="right">Gabriele D'Annunzio</p>
+          </div>
+          <div class="card-action" style="background-image:url('img/ravenna_pattern_png8.png'); background-size: 75%; background-repeat: repeat;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div ng-include="'footer.html'"></div>
+</body>
+
+</html>
