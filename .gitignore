@@ -2,3 +2,4 @@
 /node_modules/
 /website/static/js/bundle.js
 /npm-debug.log
+*.swp
