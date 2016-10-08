@@ -12,8 +12,8 @@ exports.listDocsType = function (type, cb) {
       return console.log('Failed to initialize Cloudant: ' + err.message);
     }
     var db = cloudant.db.use("scoprira");
-    db.find({selector:{"type": type}}, function(err, data) {
-      console.log("allDocsType" + data);
+    db.find({selector:{"properties": {"type": type}}}, function(err, data) {
+      console.log("listDocsType" + data);
       cb(data.docs)
     });
   });
@@ -26,12 +26,25 @@ exports.getDoc = function (id, cb) {
     }
     var db = cloudant.db.use("scoprira");
     db.get(id, function(err, data) {
-      console.log("allDocsType" + data);
+      console.log("getDoc" + data);
       cb(data)
     });
   });
-
 }
+
+exports.getLocations = function (request, cb) {
+  Cloudant({account:me, password:password}, function(err, cloudant) {
+    if (err) {
+      return console.log('Failed to initialize Cloudant: ' + err.message);
+    }
+    var db = cloudant.db.use("scoprira");
+    db.geo('places', 'GeoIndex', request, function(err, data) {
+      console.log("geo points" + data);
+      cb(data)
+    });
+  });
+}
+
 exports.launchQuery = function (request, response, query, acceptFormat) {
     var options = {
         host: host,

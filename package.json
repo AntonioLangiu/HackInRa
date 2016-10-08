@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Project for Hackathon Ravenna",
   "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
     "apicache": "^0.2.2",
+    "body-parser": "^1.15.2",
     "browserify": "^13.1.0",
     "cf-deployment-tracker-client": "*",
     "cloudant": "^1.5.0",
@@ -11,10 +14,7 @@
     "express": "~4.x",
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1",
-    "angular": "latest",
-    "angular-route": "latest",
     "jquery": "latest"
-
   },
   "main": "server.js",
   "scripts": {
