@@ -130,8 +130,8 @@
         "titolo": "Museo d'Arte della Città",
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/MAR---Museo-d%27Arte-della-Citt%C3%A0-di-Ravenna",
         "wikipedia": "https://it.wikipedia.org/wiki/Museo_d%27Arte_della_citt%C3%A0_di_Ravenna",
-        "prezzo": "",
-        "foto": "",
+        "prezzo": "3",
+        "foto": "http://www.turismo.ra.it/upload/gallery/scopri_territorio/arte_Cultura/musei-gallerie/museodartedellacitt%C3%A0/mar_facciata.jpg",
         "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA055/",
         "type": "Luogo"
@@ -154,7 +154,7 @@
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Piccolo-Museo-di-Bambole-e-altri-Balocchi",
         "wikipedia": "",
         "prezzo": "3.50",
-        "foto": "",
+        "foto": "http://www.turismo.ra.it/upload/sfondi_header/museo_bambole.jpg",
         "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA066/",
         "type": "Luogo"
@@ -200,7 +200,7 @@
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Didattico-del-Territorio-di-S.Pietro-in-Campiano",
         "wikipedia": "",
         "prezzo": "4",
-        "foto": "",
+        "foto": "http://www.turismo.ra.it/upload/sfondi_header/default.jpg",
         "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA065/",
         "type": "Luogo"
@@ -223,7 +223,7 @@
         "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Musei_-gallerie/Museo-Nazionale-di-Ravenna",
         "wikipedia": "",
         "prezzo": "6",
-        "foto": "",
+        "foto": "http://www.turismo.ra.it/upload/sfondi_header/mnazionale.jpg",
         "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA001",
         "type": "Luogo"
