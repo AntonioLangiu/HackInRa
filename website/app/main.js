@@ -1,5 +1,6 @@
 var angular = require ('angular');
 var app = angular.module('hackinra',[]);
+var leaflet = require('leaflet');
 
 app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $scope.appName = 'ScopriRa';
@@ -14,10 +15,32 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Top Attrazioni', link: '#'}
   ];
 
-  $scope.show_modal_id = function(id) {
-    $('#'+id).openModal();
-    console.log("opening id " + id);
-  }
+  $scope.show_modal_id = function (item) {
+    console.log(item.geometry.coordinates);
+    $('#' + item._id).openModal();
+
+    /* XXX This is very ghetto to load the map when the DOM is settled. A
+           better solution would be welcome, but perhaps not now. */
+    setTimeout(function () {
+        var latitude = item.geometry.coordinates[0];
+        var longitude = item.geometry.coordinates[1];
+        var mymap = leaflet.map('mapid' + item._id).setView(
+            [longitude, latitude], 15);
+
+        leaflet.tileLayer(
+             'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
+             {
+               maxZoom : 18,
+               id : 'mapbox.streets'
+             })
+            .addTo(mymap);
+
+        leaflet.marker(
+            [longitude, latitude]
+        ).addTo(mymap);
+
+    }, 100.0);
+  };
 
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
               +  " sed do eiusmod tempor incididunt ut labore et dolore magna"
@@ -50,5 +73,4 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   });
 
 
-  $scope.modalTrigger = function () { $('#modal1').openModal() }
 }]);
