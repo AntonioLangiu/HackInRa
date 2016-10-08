@@ -13,7 +13,6 @@ exports.listDocsType = function (type, cb) {
     }
     var db = cloudant.db.use("scoprira");
     db.find({selector:{"type": type}}, function(err, data) {
-      if (err) throw err;
       console.log("allDocsType" + data);
       cb(data.docs)
     });
@@ -27,7 +26,6 @@ exports.getDoc = function (id, cb) {
     }
     var db = cloudant.db.use("scoprira");
     db.get(id, function(err, data) {
-      if (err) throw err;
       console.log("allDocsType" + data);
       cb(data)
     });
