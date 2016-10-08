@@ -39,7 +39,7 @@
    "type": "Feature",
    "geometry": {
      "type": "Point",
-     "coordinates": []
+     "coordinates": [12.2050760, 44.4216770]
    },
    "properties": {
      "categoria": "Monumento",
@@ -50,6 +50,24 @@
      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Castelli_-torri_-campanili/Rocca-Brancaleone",
      "wikipedia": "https://it.wikipedia.org/wiki/Rocca_Brancaleone",
      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fortezza-brancaleone-ravenna.jpg/1280px-Fortezza-brancaleone-ravenna.jpg",
+     "type": "Luogo"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+     "type": "Point",
+     "coordinates": [12.1999180, 44.4190700]
+   },
+   "properties": {
+     "categoria": "Monumento",
+     "titolo": "Torre Civica",
+     "descrizione": "Come accadeva in altre realtà comunali d'Italia, a partire dall'anno Mille anche la classe dirigente di Ravenna avviò la costruzione di numerose torri gentilizie all'interno del tessuto urbano, simbolo di potere e prestigio sociale. Tra di esse ancora oggi si distingue la Torre Civica (eretta nel XII secolo), inizialmente detta dei beccai per via delle botteghe dei macellai poste nell'area del ponte Marino, un attraversamento del fiume Padenna, principale percorso fluviale entro le mura della Ravenna medievale. Alla fine del Duecento, tutte le torri e i fortilizi privati presenti in città furono demoliti dal rettore pontificio allo scopo di sancire il proprio controllo, ad accezione di questa torre divenuta nel frattempo proprietà del Comune. Alta circa 39 metri, per secoli fu utilizzata come torre di avvistamento presidiata da una guardia con il compito di suonare la campana in caso di allarme, di incendi o inondazioni, o di convocazione del consiglio comunale. Per evitare il rischio di un possibile crollo, nel 2000 fu asportata la parte sommitale della torre che ancora oggi trovandosi in prossimità dell'antico percorso del fiume Padenna, soffre un lento processo di smottamento sotterraneo a cui si deve anche la sua progressiva inclinazione. Alla base della costruzione rimangono ancora oggi due curiosi frammenti in pietra raffiguranti una testa, forse di donna, inserita in una nicchia e, accanto a essa, un cavaliere che le volge le spalle. La loro particolare disposizione ha fatto sì che nei secoli i cittadini ravennati ne abbiano tratto un detto cercar Mariola per Ravenna che, parafrasato, significa cercare qualcosa di molto vicino, senza però riuscire a trovarlo.",
+     "imperdibile": true,
+     "indirizzo": "Via Ponte Marino, 2 - Ravenna (RA)",
+     "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Castelli_-torri_-campanili/La-Torre-Civica",
+     "wikipedia": "",
+     "foto": "http://www.turismo.ra.it/upload/sfondi_header/torrecivica.jpg",
      "type": "Luogo"
    }
  }
