@@ -69,9 +69,18 @@
                         <p class="col s12 m3"><b>Indirizzo</b></p>
                         <p class="col s12 m4">{{item.properties.indirizzo}}</p>
                       </div>
+                      <div style="text-align: center;">
+                        <a class="waves-effect waves-light btn-large" style="align: center;">
+                          <i class="material-icons left">navigation</i>Guidami</a>
+                      </div>
                     </div>
                     <div class="modal-footer">
-                      <a href="{{item.properties.wikipedia}}"><img style="width: 42px; height: 42px;"  src="img/wiki.png"></a>
+                      <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
+                      <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
+                          ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
+                          src="img/maps.jpg"></a>
+                      <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
+
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
                     </div>
                   </div>
