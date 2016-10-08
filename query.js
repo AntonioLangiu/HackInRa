@@ -65,6 +65,21 @@ exports.getLocations = function (request, cb) {
       console.log("error ", error);
       //console.log("response ", response);
       console.log("body ", body);
+      try {
+        body = JSON.parse(body);
+      } catch (e) {
+        return; // XXX
+      }
+      if (body.rows === undefined) {
+        return; // XXX
+      }
+      body = body.rows;
+      // FIXME FIXME FIXME Workaround suprising cloudant behavior
+      for (var i = 0; i < body.length; ++i) {
+        if (body[i].type === undefined) {
+          body[i].type = "Feature";
+        }
+      }
       //console.log("geo points " + data);
       cb(body);
     });
