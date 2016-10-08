@@ -1,0 +1,74 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.209167, 44.425]
+    },
+    "properties": {
+      "categoria": "Monumento",
+      "titolo": "Mausoleo di Teoderico",
+      "descrizione": "Fatto costruire dallo stesso Teodorico nel 520 d.C. come propria sepoltura, il mausoleo si colloca a circa un chilometro dal centro di Ravenna, in una zona utilizzata durante il regno dei Goti come sepolcreto.",
+      "imperdibile": true,
+      "indirizzo": "Via Delle Industrie, 14 - Ravenna (RA)",
+      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Patrimonio-Unesco/Mausoleo-di-Teoderico",
+      "wikipedia": "https://it.wikipedia.org/wiki/Mausoleo_di_Teodorico",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Teodorico_Mausoleum_-_Ravenna%2C_Italy.JPG",
+      "type": "Luogo"
+    }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+     "type": "Point",
+     "coordinates": []
+   },
+   "properties": {
+     "categoria": "Monumento",
+     "titolo": "Cripta Rasponi e Giardini Pensili del Palazzo della Provincia",
+     "descrizione": "Il Palazzo della Provincia, realizzato tra il 1925 e il 1928 su progetto dell'architetto piacentino Giulio Ulisse Arata, è un esempio di architettura neoromantica con richiami stilistici di tipo bizantino. L'attuale edificio sorge sull'antico Palazzo Rasponi, databile al XVII secolo, usato come dimora patrizia fino al 1886, anno in cui fu trasformato in albergo; distrutto da un incendio nel 1922, fu ricostruito nel 1926. Dell'antico palazzo rimangono la Cripta e il passaggio pensile su Via Santi, inseriti all'interno di elementi architettonici appartenenti a epoche diverse. La Cripta rappresenta il nucleo più antico del complesso architettonico. Si tratta di una piccola cappella gentilizia che tuttavia non ha mai accolto i defunti della famiglia Rasponi, suddivisa in tre ambienti: quello di accesso s'innesta alla base di una torretta neogotica (fine XIX secolo); un vano conserva una sfera di pietra con l'iscrizione sic vita pendet ab alto; infine, l'ultima stanza accoglie un piccolo altare per le funzioni religiose. La parte più significativa della cripta è costituita dal pavimento a mosaico, proveniente dalla Chiesa di San Severo (Classe) e databile al VI secolo. È decorato con motivi ornamentali e figure animali (galline, anatre, oche, teste di ariete e serpenti), raffigurati in atteggiamenti spontanei e vivacizzati dall'uso di smalti che ne esaltano la ricchezza cromatica. ll Giardino, arricchito da una bella fontana e dalla torre neogotica, presenta anche una parte pensile prospiciente Piazza San Francesco, dalla quale è possibile accedere al contiguo terrazzo sopra il voltone (1839), in passato usato come collegamento tra Palazzo Rasponi e le scuderie e i magazzini.",
+     "imperdibile": true,
+     "indirizzo": "Piazza San Francesco, 1 - Ravenna (RA)",
+     "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Siti-archeologici/Cripta-Rasponi-e-Giardini-Pensili-del-Palazzo-della-Provincia",
+     "wikipedia": "https://it.wikipedia.org/wiki/Palazzo_della_Provincia_(Ravenna)",
+     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Torre_Palazzo_Provincia_Ravenna.jpg/1280px-Torre_Palazzo_Provincia_Ravenna.jpg",
+     "type": "Luogo"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+     "type": "Point",
+     "coordinates": [12.2050760, 44.4216770]
+   },
+   "properties": {
+     "categoria": "Monumento",
+     "titolo": "Rocca Brancaleone",
+     "descrizione": "La Rocca Brancaleone fu costruita dai veneziani a partire dal 1457 allo scopo di rafforzare le difese della città. Si collocava nell'angolo nord-est del perimetro murario, a ridosso della strada che portava a Venezia, in un'area non edificata. Il punto focale della fortezza era costituito dalla Rocca, o ridotto, composto da un ampio quadrilatero di circa 2180 mq di superficie con quattro imponenti torrioni circolari agli angoli, uniti tramite cortine murarie. Verso Sud, invece, si apriva la cittadella su un'area di 14.000 mq usata per gli alloggi delle guarnigioni, per i depositi di derrate e di armi, per le stalle ed altri servizi. Circondata da mura, con porta fortificata, presentava agli angoli dei torrioni difensivi, due circolari e due semicircolari. Tutto attorno correva un ampio fossato le cui tracce sono ancora oggi intuibili nonostante i lavori di riempimento realizzati. All'interno della Rocca si trova oggi un ampio giardino.",
+     "imperdibile": true,
+     "indirizzo": "Via Rocca Brancaleone - Ravenna (RA)",
+     "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Castelli_-torri_-campanili/Rocca-Brancaleone",
+     "wikipedia": "https://it.wikipedia.org/wiki/Rocca_Brancaleone",
+     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fortezza-brancaleone-ravenna.jpg/1280px-Fortezza-brancaleone-ravenna.jpg",
+     "type": "Luogo"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+     "type": "Point",
+     "coordinates": [12.1999180, 44.4190700]
+   },
+   "properties": {
+     "categoria": "Monumento",
+     "titolo": "Torre Civica",
+     "descrizione": "Come accadeva in altre realtà comunali d'Italia, a partire dall'anno Mille anche la classe dirigente di Ravenna avviò la costruzione di numerose torri gentilizie all'interno del tessuto urbano, simbolo di potere e prestigio sociale. Tra di esse ancora oggi si distingue la Torre Civica (eretta nel XII secolo), inizialmente detta dei beccai per via delle botteghe dei macellai poste nell'area del ponte Marino, un attraversamento del fiume Padenna, principale percorso fluviale entro le mura della Ravenna medievale. Alla fine del Duecento, tutte le torri e i fortilizi privati presenti in città furono demoliti dal rettore pontificio allo scopo di sancire il proprio controllo, ad accezione di questa torre divenuta nel frattempo proprietà del Comune. Alta circa 39 metri, per secoli fu utilizzata come torre di avvistamento presidiata da una guardia con il compito di suonare la campana in caso di allarme, di incendi o inondazioni, o di convocazione del consiglio comunale. Per evitare il rischio di un possibile crollo, nel 2000 fu asportata la parte sommitale della torre che ancora oggi trovandosi in prossimità dell'antico percorso del fiume Padenna, soffre un lento processo di smottamento sotterraneo a cui si deve anche la sua progressiva inclinazione. Alla base della costruzione rimangono ancora oggi due curiosi frammenti in pietra raffiguranti una testa, forse di donna, inserita in una nicchia e, accanto a essa, un cavaliere che le volge le spalle. La loro particolare disposizione ha fatto sì che nei secoli i cittadini ravennati ne abbiano tratto un detto cercar Mariola per Ravenna che, parafrasato, significa cercare qualcosa di molto vicino, senza però riuscire a trovarlo.",
+     "imperdibile": true,
+     "indirizzo": "Via Ponte Marino, 2 - Ravenna (RA)",
+     "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Castelli_-torri_-campanili/La-Torre-Civica",
+     "wikipedia": "",
+     "foto": "http://www.turismo.ra.it/upload/sfondi_header/torrecivica.jpg",
+     "type": "Luogo"
+   }
+ }
+]
