@@ -1,0 +1,10 @@
+[{"titolo": "Escursione lungo il fiume Lamone",
+  "descrizione": "Un percorso ciclo-pedonale di circa tre chilometri lungo l'argine sinistro del fiume Lamone a partire dalla sua foce. Il tragitto permette di ammirare le diverse evoluzioni paesaggistiche della fascia costiera: la duna costiera alla foce del Lamone, la laguna salmastra ex Valle delle Vene (o Risatina), la pineta di San Vitale, la prateria allagata Bassa del Bardello, la palude aperta di Valle Mandriole e la foresta allagata di Punte Alberete. Lungo il percorso pannelli con immagini, descrizioni e cartografie antiche illustrano le caratteristiche salienti del paesaggio e dei suoi valori naturalistici.",
+  "mezzoConsigliato": "a piedi",
+  "prezzoTotaleStimato": "0 euro",
+  "distanzaTotaleStimata": "5 Km",
+  "immagineMappa": "",
+  "carousel": ["http://www.turismo.ra.it/upload/sfondi_header/pineta_svitale2.jpg", "http://www.turismo.ra.it/upload/sfondi_header/bardello.jpg", ""],
+  "tappe": [1, 2, 3, 4],
+  "type": "Itinerario"
+}]
