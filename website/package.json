@@ -1,0 +1,20 @@
+{
+  "name": "ScopriRA",
+  "version": "0.0.1",
+  "author": "Las Panteras",
+  "description": "Web App for Ravenna tourism",
+  "main": "index.js",
+  "repository": "https://github.com/AntonioLangiu/HackInRa",
+  "scripts": {
+    "build-js": "browserify app/main.js -o static/js/bundle.js"
+  },
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "watchify": "latest",
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  }
+}

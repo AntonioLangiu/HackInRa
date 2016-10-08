@@ -1,0 +1,14 @@
+<div class="row" ng-init="visible_div='div1'">
+   <div class="col s12">
+     <ul class="tabs">
+       <li class="tab col s3"><a ng-click="visible_div='div1'">Test 1</a></li>
+       <li class="tab col s3"><a ng-click="visible_div='div2'">Test 2</a></li>
+       <li class="tab col s3"><a ng-click="visible_div='div3'">Test 3</a></li>
+       <li class="tab col s3"><a ng-click="visible_div='div4'">Test 4</a></li>
+     </ul>
+   </div>
+   <div ng-show="visible_div=='div1'" class="col s12">Test 1</div>
+   <div ng-show="visible_div=='div2'" class="col s12">Test 2</div>
+   <div ng-show="visible_div=='div3'" class="col s12">Test 3</div>
+   <div ng-show="visible_div=='div4'" class="col s12">Test 4</div>
+ </div>
