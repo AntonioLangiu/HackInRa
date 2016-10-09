@@ -108,7 +108,7 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     $scope.piatti = res.data;
   });
   $http.get('data/introvabile.json').then(function(res) {
-    $scope.piatti = res.data;
+    $scope.introvabili = res.data;
   });
 
 }]);
