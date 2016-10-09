@@ -236,7 +236,6 @@
         "wikipedia": "",
         "prezzo": "3",
         "foto": "http://www.turismo.ra.it/upload/sfondi_header/mnatura.jpg",
-        "mosaico": true,
         "linkedData": "http://dati.emilia-romagna.it/id/ibc/IT-ER-RA031",
         "type": "Luogo"
     }
