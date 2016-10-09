@@ -4,8 +4,14 @@ var leaflet = require('leaflet');
 
 app
 .service("HttpCache", function ($http) {
+  var lastTime = new Date().getTime();
   var cache = {};
   function retrieve_url(url, callback, attempt) {
+    var now = new Date().getTime();
+    if (now - lastTime > 60000) {
+        cache = {};
+        lastTime = now;
+    }
     if (cache[url] !== undefined) {
       setInterval(function () { callback(cache[url]); }, 0.0);
       return;
