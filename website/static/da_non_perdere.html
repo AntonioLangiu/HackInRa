@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScopriRA: scopri Ravenna</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/theme.css">
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body ng-app="hackinra" ng-controller="MainCtrl">
+    <script>
+      $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+      });
+
+    </script>
+    <div ng-include="'header.html'"></div>
+    <div class="container">
+
+      <div class="row">
+         <div class="col s12" style="margin-top: 10px;">
+           <ul class="tabs">
+             <li class="tab col s3"><a href="#imperdibili">Imperdibili</a></li>
+             <li class="tab col s3"><a href="#introvabili">Introvabili</a></li>
+           </ul>
+         </div>
+
+         <!-- Modal Structure -->
+         <div id="item-modal-view" class="modal_edit modal modal-fixed-footer">
+           <div class="modal-content">
+             <h4 id="item-modal-titolo"></h4>
+             <p id="item-modal-descrizione"></p>
+             <div class="row">
+               <img class="col s12 m5 responsive-img" id="item-modal-foto" src="">
+               <div class="col s12 m5" id="item-modal-mappa" style="height: 180px;"></div>
+               <p class="col s12 m3"><b>Indirizzo</b></p>
+               <p class="col s12 m4" id="item-modal-indirizzo"></p>
+             </div>
+             <div style="text-align: center;">
+               <a class="waves-effect waves-light btn-large" style="align: center;">
+               <i class="material-icons left">navigation</i>Guidami</a>
+             </div>
+           </div>
+           <div class="modal-footer">
+             <a id="item-modal-wikipedia" href=""><img style="width: 38px; height: 38px;" src="img/wiki.png"></a>
+             <a id="item-modal-gmaps" href=""><img style="width: 42px; height: 42px;" src="img/maps.jpg"></a>
+             <a id="item-modal-scheda" href=""><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
+             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
+           </div>
+         </div>
+
+         <!-- start with imperdibili -->
+         <div id="imperdibili" class="col s12">
+           <div class="row">
+             <div class="col s12 m6 l4" ng-repeat="item in imperdibili">
+               <div class="card small">
+                 <div class="card-image waves-effect waves-block waves-light modal-trigger">
+                   <a ng-click="show_modal_id(item);">
+                     <img style="height: 100%;" src="{{item.properties.foto}}">
+                   </a>
+                 </div>
+                 <div class="card-content">
+                   <span class="card-title grey-text text-darken-4">
+                     {{item.properties.titolo}}
+                   </span>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- end imperdibili -->
+
+         <!-- start with introvabili -->
+         <div id="introvabili" class="col s12">
+           <div class="row">
+             <div class="col s12 m6 l4" ng-repeat="item in introvabili">
+                <div class="card small">
+                 <div class="card-image waves-effect waves-block waves-light modal-trigger">
+                 <a ng-click="show_modal_id(item);">
+                   <img src="{{item.properties.foto}}">
+                 </a>
+                 </div>
+                  <div class="card-content">
+                   <span class="card-title grey-text text-darken-4">
+                      {{item.properties.titolo}}
+                    </span>
+                  </div>
+                 </div>
+               </div>
+           </div>
+         </div>
+         <!-- end introvabili -->
+
+       </div>
+    </div>
+
+    <div ng-include="'footer.html'"></div>
+
+  </body>
+</html>
