@@ -97,6 +97,25 @@ app
     $('#item-modal-view').openModal();
   };
 
+  $scope.show_modal_event = function (item) {
+    // Fill the fields that have textual values
+    console.log('porco');
+    var keys = ["titolo", "endDate", "startDate"];
+    for (var i = 0; i < keys.length; i += 1) {
+      $("#item-modal-" + keys[i]).text(item[keys[i]]);
+    }
+
+    $("#item-modal-testoHtml").html(item["testoHtml"]);
+
+    // Then fill the fields that have href
+    $("#item-modal-scheda").attr("href", item["link"]);
+
+    // Then fill the image
+    $("#item-modal-immagine").attr("src", item.immagine);
+    // Open the modal window
+    $('#item-modal-view').openModal();
+  };
+
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
               +  " sed do eiusmod tempor incididunt ut labore et dolore magna"
               +  " aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
@@ -141,6 +160,12 @@ app
                     'http://scoprira.eu-gb.mybluemix.net/api/all3/Piatto',
                      function (res) {
                        $scope.piatti = res.data;
+                       HttpCache(
+                         'http://scoprira.eu-gb.mybluemix.net/api/all3/Evento',
+                         function (res) {
+                           $scope.eventi = res.data;
+                         }
+                       )
                      });
                 });
             });
