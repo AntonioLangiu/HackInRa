@@ -40,7 +40,14 @@ $.getJSON("http://scoprira.eu-gb.mybluemix.net/api/geo/nearest?lat=44.417082&lon
         for (i=0; i<data.length; i++){
            L.geoJSON(data[i]).addTo(mymap)//.bindPopup(found.titolo)
        }
-       L.marker([44.417082,12.1961996], {icon: redIcon}).addTo(map).bindPopup("Sono qui!");
+       var myIcon = L.divIcon({
+       className: 'my-div-icon',
+       iconSize: [20, 20]
+       });
+       var marker = L.marker([44.417082,12.1961996], {icon: myIcon}).addTo(mymap);
+       marker.valueOf()._icon.style.backgroundColor = 'red'; 
+
+    //   L.marker([44.417082,12.1961996], {icon: greenIcon}).addTo(map).bindPopup("Sono qui!");
 });
 </script>
   </div>
