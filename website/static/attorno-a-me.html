@@ -23,7 +23,7 @@
   <div ng-include="'header.html'"></div>
   <div>
 
-<div id="mapid" style="width: 100%; height: 100vh;"></div>
+<div id="mapid" style="width: 100%; height: calc(100vh - 62px);"></div>
 <script>
 $.getJSON("http://scoprira.eu-gb.mybluemix.net/api/geo/nearest?lat=44.417082&lon=12.1961996&limit=200", function(data) {
 
