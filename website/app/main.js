@@ -104,6 +104,9 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Imperdibili').then(function(res) {
     $scope.imperdibili = res.data;
   });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all3/Piatto').then(function(res) {
+    $scope.piatti = res.data;
+  });
 
 
 }]);
