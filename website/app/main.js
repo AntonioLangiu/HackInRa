@@ -23,10 +23,13 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     }
 
     // Then fill the fields that have href
-    keys = ["wikipedia", "gmaps", "scheda"];
+    keys = ["wikipedia", "urlScheda"];
     for (var i = 0; i < keys.length; i += 1) {
       $("#item-modal-" + keys[i]).attr("href", item.properties[keys[i]]);
     }
+    $("#item-modal-gmaps").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[0]+","+item.geometry.coordinates[1]);
+    $("#item-modal-guidami").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[0]+","+item.geometry.coordinates[1]);
+
 
     // Then fill the image
     $("#item-modal-foto").attr("src", item.properties.foto);
@@ -65,6 +68,25 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     $('#item-modal-view').openModal();
   };
 
+  $scope.show_modal_event = function (item) {
+    // Fill the fields that have textual values
+    var keys = ["titolo", "startDate", "endDate"];
+    for (var i = 0; i < keys.length; i += 1) {
+      $("#item-modal-" + keys[i]).text(item[keys[i]]);
+    }
+
+    $("#item-modal-testoHtml").html(item["testoHtml"]);
+
+    // Then fill the fields that have href
+    $("#item-modal-scheda").attr("href", item["link"]);
+
+    // Then fill the image
+    $("#item-modal-immagine").attr("src", item["immagine"]);
+
+    // Open the modal window
+    $('#item-modal-view').openModal();
+  };
+
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
               +  " sed do eiusmod tempor incididunt ut labore et dolore magna"
               +  " aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
@@ -85,6 +107,9 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
 
   $http.get('data/chiesa.json').then(function(res) {
      $scope.chiese = res.data;
+  });
+  $http.get('data/eventi.json').then(function(res) {
+     $scope.eventi = res.data;
   });
   $http.get('data/natura.json').then(function(res) {
      $scope.natura = res.data;
