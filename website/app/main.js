@@ -15,35 +15,44 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     {text: 'Top Attrazioni', link: '#'}
   ];
 
-  $scope.show_modal_id = function (item, suffix) {
-    var _id = item._id;
-    if (suffix !== undefined) {
-        _id += "_" + suffix;
+  $scope.show_modal_id = function (item) {
+    // Fill the fields that have textual values
+    var keys = ["titolo", "descrizione", "indirizzo"];
+    for (var i = 0; i < keys.length; i += 1) {
+      $("#item-modal-" + keys[i]).text(item.properties[keys[i]]);
     }
-    console.log(item.geometry.coordinates);
-    $('#' + _id).openModal();
 
-    /* XXX This is very ghetto to load the map when the DOM is settled. A
-           better solution would be welcome, but perhaps not now. */
-    setTimeout(function () {
-        var latitude = item.geometry.coordinates[0];
-        var longitude = item.geometry.coordinates[1];
-        var mymap = leaflet.map('mapid' + _id).setView(
-            [longitude, latitude], 15);
+    // Then fill the fields that have href
+    keys = ["wikipedia", "gmaps", "scheda"];
+    for (var i = 0; i < keys.length; i += 1) {
+      $("#item-modal-" + keys[i]).attr("href", item.properties[keys[i]]);
+    }
 
-        leaflet.tileLayer(
-             'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
-             {
-               maxZoom : 18,
-               id : 'mapbox.streets'
-             })
-            .addTo(mymap);
+    // Then fill the image
+    $("#item-modal-foto").attr("src", item.properties.foto);
 
-        leaflet.marker(
-            [longitude, latitude]
-        ).addTo(mymap);
+    // Draw the map. Note that we need to reset the container to be sure.
+    if ($scope.map !== undefined) {
+        $scope.map.remove();
+        $("#item-modal-mappa").html("");
+    }
+    var latitude = item.geometry.coordinates[0];
+    var longitude = item.geometry.coordinates[1];
+    $scope.map = leaflet.map("item-modal-mappa").setView(
+        [longitude, latitude], 15);
 
-    }, 100.0);
+    leaflet.tileLayer(
+           'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
+           {
+             maxZoom : 18,
+             id : 'mapbox.streets'
+           })
+        .addTo($scope.map);
+
+    leaflet.marker([longitude, latitude]).addTo($scope.map);
+
+    // Open the modal window
+    $('#item-modal-view').openModal();
   };
 
   $scope.lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
