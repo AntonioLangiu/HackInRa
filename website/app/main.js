@@ -141,6 +141,11 @@ app
                     'http://scoprira.eu-gb.mybluemix.net/api/all3/Piatto',
                      function (res) {
                        $scope.piatti = res.data;
+                       HttpCache(
+                        'http://scoprira.eu-gb.mybluemix.net/api/all/Introvabile',
+                        function (res) {
+                          $scope.introvabili = res.data;
+                        });
                      });
                 });
             });
