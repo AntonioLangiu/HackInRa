@@ -32,6 +32,21 @@ app.get('/api/all/:type', apicache('1 day'), function (request, response) {
    });
 });
 
+app.get('/api/all2/:type', apicache('1 day'), function (request, response) {
+   query.listOtherDocsType(request.params.type, function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+app.get('/api/all3/:type', apicache('1 day'), function (request, response) {
+   query.listOtherTypeDocsType(request.params.type, function (data) {
+       response.writeHead(200, {"Content-Type": "application/json"});
+       response.end(JSON.stringify(data));
+   });
+});
+
+
 app.get('/api/doc/:id', apicache('1 day'), function (request, response) {
    query.getDoc(request.params.id, function (data) {
        response.writeHead(200, {"Content-Type": "application/json"});
