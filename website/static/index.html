@@ -22,13 +22,14 @@
     #container {
       width: 100%;
       position: relative;
+      text-align:center;
     }
     #text {
       z-index: 100;
       position: absolute;
       color: black;
       font-size: 24px;
-      left: 35%;
+      left: calc(50% - 170px);
       top: 10px;
     }
   </style>
@@ -121,13 +122,16 @@
         </div>
       </div>
     </div>
-    <div id="container">
-      <a href="attorno-a-me.html"><img id="intornoImg" src="img/attorno-a-me.png" width="100%"/></a>
-      <p id="text">
-        <a class="waves-effect waves-light btn" href="attorno-a-me.html">Guarda attorno a te!</a>
-      </p>
+    <div class="row">
+      <div class="col s12 m12">
+        <div id="container">
+          <a href="attorno-a-me.html"><img id="intornoImg" src="img/attorno-a-me.png" width="100%" style="min-height:100px"/></a>
+          <p id="text">
+            <a class="waves-effect waves-light btn" href="attorno-a-me.html">Guarda attorno a te!</a>
+          </p>
+        </div>
+      </div>
     </div>
-    <br/>
     <div class="row">
       <div class="col s12 m6">
         <div class="card blue-grey darken-1">
