@@ -1,0 +1,68 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.2055, 44.41409]
+    },
+    "properties": {
+      "categoria": "Introvabile",
+      "titolo": "La statua di Guidarello Guidarelli",
+      "descrizione": "La statua di Guidarello Guidarelli fu scolpita da Tullio Lombardo nel 1525, a circa vent'anni dalla morte del famoso condottiero ravennate.
+Custodita presso la pinacoteca del MAR - Museo d'Arte della Città di Ravenna, l'opera scultorea è da sempre oggetto di grande attenzione, per la ricercata e morbida espressività del volto - messa in particolare risalto dal più recente restauro - in contrasto con la rigidità dell'armatura.",
+      "indirizzo": "Via di Roma, 13 - Ravenna (RA)",
+      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Personaggi_-storia_-tradizioni/Riti_-leggende/La-Statua-di-Guidarello-Guidarelli",
+      "wikipedia": "https://it.wikipedia.org/wiki/Guidarello_Guidarelli",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tullio_lombardo%2C_tomba_del_cavaliere_guidarello%2C_1525%2C_06.jpg",
+      "type": "Luogo"
+    }
+  },{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.193468, 44.382206]
+    },
+    "properties": {
+      "categoria": "Introvabile",
+      "titolo": "La colonna dei francesi",
+      "descrizione": "Il giorno 11 aprile 1512, domenica di Pasqua, si svolse nei pressi di Ravenna una battaglia, uno dei massacri più terribili della storia medioevale e moderna. L’esercito francese affrontò e battè sul campo la cosiddetta Lega Santa, formata da spagnoli e napoletani. Restarono a terra circa ventimila fanti e cavalieri spagnoli, napoletani, tedeschi, veneziani, ferraresi, francesi, fra i quali il valoroso duca Gastone di Foix. A ricordo, sull’argine sinistro del fiume Ronco, in zona Madonna dell’Albero (raggiungibile dal centro storico di Ravenna, percorrendo la via Ravegnana), vi è una stele di marmo circondata da alti cipressi: La Colonna dei Francesi, che venne scolpita ed eretta nel 1557 dal cardinale Pier Donato Cesi arcivescovo di Narni.",
+      "indirizzo": "",
+      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Arte-e-cultura/Monumenti-alla-memoria/Colonna-dei-Francesi",
+      "wikipedia": "https://it.wikipedia.org/wiki/Battaglia_di_Ravenna",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Colonna_dei_francesi_04.JPG",
+      "type": "Luogo"
+    }
+  },{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.193497, 44.419056]
+    },
+    "properties": {
+      "categoria": "Introvabile",
+      "titolo": "La Cripta della Basilica di San Francesco",
+      "descrizione": "Visitando la Basilica, dove si svolsero nel 1321 le ultime esequie del Sommo Poeta, si può notare sotto l’altare una apertura a finestra: accendendo la luce con una moneta da 0,50 €, si resta sorpresi dalla suggestione della Cripta invasa dall'acqua, con il pavimento musivo a disegni geometrici e alcune colonnine. La Cripta è sotto il livello del mare e l'acqua pulita la invade come fosse una piccola piscina, dove nuotano anche diversi pesci rossi.",
+      "indirizzo": "Piazza San Francesco, 1 - Ravenna (RA)",
+      "urlScheda": "http://www.turismo.ra.it/ita/Scopri-il-territorio/Personaggi_-storia_-tradizioni/Curiosit%C3%A0/La-Cripta-della-Basilica-di-San-Francesco",
+      "wikipedia": "https://it.wikipedia.org/wiki/Basilica_di_San_Francesco_(Ravenna)",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ravenna%2C_s._francesco%2C_int.%2C_cripta_del_IX-X_sec._01.JPG",
+      "type": "Luogo"
+    }
+  },{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.1943586, 44.4197269]
+    },
+    "properties": {
+      "categoria": "Introvabile",
+      "titolo": "Panchina D'Attorre",
+      "descrizione": "Di fianco a Porta Adriana, ingresso monumentale al centro antico di Ravenna, sorge un monumento a ricordo dell’ex sindaco della città Pier Paolo D’Attorre, grande figura di intellettuale, dedito alla ricerca e allo studio, e profondo conoscitore della cultura locale, scomparso prematuramente. L’opera è composta da una panchina di dimensioni reali, una semplice panchina ricoperta di tessere musive su cui sembrano dimenticati un soprabito ripiegato ed un libro, anch’essi mosaicati. La copertina del libro presenta un cespuglio con fiori a calice, bianchi e rossi, un motivo iconografico tratto dalla decorazione musiva della chiesa bizantina di S. Apollinare in Classe. Qui sono gli oggetti a parlare dell’uomo, a conservarne la memoria.",
+      "indirizzo": "Via Camillo Benso Cavour, - Ravenna (RA)",
+      "urlScheda": "http://www.mosaicoravenna.it/mosaico-a-ravenna/monumento-a-pier-paolo-dattorre/",
+      "wikipedia": "https://it.wikipedia.org/wiki/Pier_Paolo_D%27Attorre",
+      "foto": "http://www.mosaicoravenna.it/wp-content/uploads/2015/06/DAttorre_monumento.jpg",
+      "type": "Luogo"
+    }
+  }
+]
