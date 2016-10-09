@@ -52,6 +52,9 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Mosaici').then(function(res) {
     $scope.mosaici = res.data;
   });
+  $http.get('http://scoprira.eu-gb.mybluemix.net/api/all/Ristorante').then(function(res) {
+    $scope.ristoranti = res.data;
+  });
 
 
   $scope.modalTrigger = function () { $('#modal1').openModal() }

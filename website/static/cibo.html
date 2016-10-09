@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScopriR&aacute;: scopri Ravenna</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body ng-app="hackinra" ng-controller="MainCtrl">
+    <div ng-include="'header.html'"></div>
+    <div class="container">
+      <script>
+        $(document).ready(function(){
+           $('.materialboxed').materialbox();
+         });
+      </script>
+
+
+    <div class="row" style="margin-top: 10px;">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#specialità">Specialità</a></li>
+        <li class="tab col s3"><a href="#ristoranti">Ristoranti</a></li>
+      </ul>
+    </div>
+    <div id="specialità" class="col s12">
+      <h3>Le specialità</h3>
+      <p style="text-align: justify;">Pur distinguendosi in maniera particolare per il suo splendido patrimonio culturale e paesaggistico,&nbsp;<span>Ravenna&nbsp;</span>è anche una città ospitale e di antica tradizione culinaria.<br><br>Le minestre asciutte e in brodo occupano una posizione preminente nei menù tipici locali: fra le specialità più conosciute si annoverano tagliatelle, lasagne, strozzapreti conditi con il ricco ragù di carne della tradizione, passatelli dal colore dorato, profumati di parmigiano e noce moscata e cappelletti dallo squisito ripieno di formaggio, al ragù o annegati in un brodo sopraffino. Tutti i primi piatti sono realizzati con pasta “fatta in casa”, e per questo sono celebri e molto richiesti.<br>A questi si aggiungono le carni di maiale, prevalentemente cotte alla griglia su braci di legna, spesso accompagnate dal “pinzimonio” (misto di verdure crude e fresche, da intingere in sale e olio).<br>Nei centri costieri (ma anche in città) il risotto alla marinara, i tagliolini allo scoglio, gli spaghetti con le vongole precedono saporite grigliate durante le quali è possibile gustare le molte varietà di molluschi e pesci dell’Adriatico.<br>I piatti di pesce e di carne vengono sempre accompagnati da calde e fragranti piadine e, almeno come piccolo assaggio, dall’indimenticabile formaggio morbido locale: lo Squacquerone di Romagna.<br><br>A tutti questi piatti si abbinano perfettamente i vini locali (Sangiovese, Trebbiano, Pagadèbit) e i dolci, genuini e tradizionali, come i biscotti secchi, i tortelli ripieni di marmellate, le ciambelle e le crostate, da inzuppare in vini amabili come il bianco Albana o come la rossa Cagnina.</p>
+      <h4>Primi Piatti</h4>
+
+      <h4>Carne</h4>
+        <div class="row">
+          <div class="col s12 m7">
+            <div class="card">
+                 <div class="card-image waves-effect waves-block waves-light">
+                   <img class="activator" src="images/office.jpg">
+                 </div>
+                 <div class="card-content">
+                   <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                   <p><a href="#">This is a link</a></p>
+                 </div>
+                 <div class="card-reveal">
+                   <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                   <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      <h4>Pesce</h4>
+      <h4>Formaggi</h4>
+      <h4>Frutta</h4>
+      <h4>Pane</h4>
+      <h4>Dolci</h4>
+
+    </div>
+    <div id="ristoranti" class="col s12">
+      <div class="row">
+        <div class="col s12 m6 l4" ng-repeat="item in ristoranti | orderBy: 'properties.titolo'">
+           <div class="card small">
+            <div class="card-image waves-effect waves-block waves-light modal-trigger">
+            <a ng-click="show_modal_id(item._id);">
+              <img style="height: 100%;" src="{{item.properties.foto}}">
+            </a>
+            </div>
+             <div class="card-content">
+              <span class="card-title grey-text text-darken-4">
+                 {{item.properties.titolo}}
+               </span>
+             </div>
+            </div>
+
+            <!-- Modal Structure -->
+            <div id="{{item._id}}" class="modal_edit modal modal-fixed-footer">
+               <div class="modal-content">
+                 <h4>{{item.properties.titolo}}</h4>
+                 <div class="row">
+                   <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
+                   <p class="col s12 m3"><b>Indirizzo</b></p>
+                   <p class="col s12 m4">{{item.properties.indirizzo}}</p>
+                 </div>
+                 <div style="text-align: center;">
+                   <a class="waves-effect waves-light btn-large" style="align: center;">
+                     <i class="material-icons left">navigation</i>Guidami</a>
+                 </div>
+               </div>
+               <div class="modal-footer">
+                 <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
+                 <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
+                     ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
+                     src="img/maps.jpg"></a>
+                 <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
+
+                 <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
+               </div>
+             </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div ng-include="'footer.html'"></div>
+
+  </body>
+</html>
