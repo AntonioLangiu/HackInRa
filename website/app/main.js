@@ -2,42 +2,10 @@ var angular = require ('angular');
 var app = angular.module('hackinra',[]);
 var leaflet = require('leaflet');
 
-app
-.service("HttpCache", function ($http) {
-  var lastTime = new Date().getTime();
-  var cache = {};
-  function retrieve_url(url, callback, attempt) {
-    var now = new Date().getTime();
-    if (now - lastTime > 60000) {
-        cache = {};
-        lastTime = now;
-    }
-    if (cache[url] !== undefined) {
-      setInterval(function () { callback(cache[url]); }, 0.0);
-      return;
-    }
-    if (attempt === undefined) {
-      attempt = 1;
-    } else if (attempt > 3) {
-      throw "Too many attempts";
-      return;
-    }
-    $http
-      .get(url)
-      .then(function (res) {
-        cache[url] = res;
-        callback(res);
-      }, function (res) {
-        setInterval(function () {
-          retrieve_url(url, callback, attempt + 1);
-        }, attempt * 1000.0);
-      });
-  };
-  return retrieve_url;
-})
-.controller('MainCtrl', ['$scope', 'HttpCache', function($scope, HttpCache) {
+app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
   $scope.appName = 'ScopriRa';
   $scope.appLogo = ''
+
 
   $scope.title = "ScopriRa: scopri Ravenna con noi"
   $scope.menu = [
@@ -115,38 +83,29 @@ app
     {text: 'Emergenze', link: '#'}
   ];
 
-  HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Chiesa',
-            function (res) {
-    $scope.chiese = res.data;
-    HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Natura',
-              function (res) {
-      $scope.natura = res.data;
-      HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Museo',
-                function (res) {
-        $scope.musei = res.data;
-        HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Monumento',
-                  function (res) {
-          $scope.monumenti = res.data;
-          HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Mosaici',
-                    function (res) {
-            $scope.mosaici = res.data;
-            HttpCache('http://scoprira.eu-gb.mybluemix.net/api/all/Ristorante',
-                      function (res) {
-              $scope.ristoranti = res.data;
-              HttpCache(
-                'http://scoprira.eu-gb.mybluemix.net/api/all/Imperdibili',
-                function (res) {
-                  $scope.imperdibili = res.data;
-                  HttpCache(
-                    'http://scoprira.eu-gb.mybluemix.net/api/all3/Piatto',
-                     function (res) {
-                       $scope.piatti = res.data;
-                     });
-                });
-            });
-          });
-        });
-      });
-    });
+  $http.get('data/chiesa.json').then(function(res) {
+     $scope.chiese = res.data;
   });
+  $http.get('data/natura.json').then(function(res) {
+     $scope.natura = res.data;
+  });
+  $http.get('data/museo.json').then(function(res) {
+     $scope.musei = res.data;
+  });
+  $http.get('data/monumento.json').then(function(res) {
+     $scope.monumenti = res.data;
+  });
+  $http.get('data/mosaici.json').then(function(res) {
+     $scope.mosaici = res.data;
+  });
+  $http.get('data/ristorante.json').then(function(res) {
+    $scope.ristoranti = res.data;
+  });
+  $http.get('data/imperdibili.json').then(function(res) {
+    $scope.imperdibili = res.data;
+  });
+  $http.get('data/piatto.json').then(function(res) {
+    $scope.piatti = res.data;
+  });
+
 }]);
