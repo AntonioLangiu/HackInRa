@@ -102,7 +102,7 @@
     "titolo": "Caterine",
     "descrizione": "Le Caterine sono dei tipici biscotti ravennati a forma di bambolina, di gallina o di galletto, ricoperti di cioccolata e rifiniti con decorazioni di zucchero colorato",
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Caterine",
-    "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/I_cantuccini.jpg/1920px-I_cantuccini.jpg",
+    "urlImmagine": "http://www.ravennaintorno.it/var/ravenna_intorno/storage/images/enogastronomia/menu-del-gusto/dolci/caterine/21309-11-ita-IT/Caterine_foto_scheda.jpg",
     "wikipedia": "",
     "categoria": "dolce",
     "settore" : "",
@@ -157,10 +157,10 @@
     "titolo": "Cappelletti",
     "descrizione": "I cappelletti, detti anche caplèt, sono un piatto tradizionale della cucina romagnola. Si tratta di una pasta all'uovo tagliata a quadrati, riempiti di formaggio (ricotta, raviggiolo o casatella, parmigiano)",
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Cappelletti",
-    "urlImmagine": "",
-    "wikipedia": "https://it.wikipedia.org/wiki/File:Cappelletti1.JPG",
-    "categoria": "pasta",
-    "settore" : "primo piatto",
+    "urlImmagine": "https://it.wikipedia.org/wiki/File:Cappelletti1.JPG",
+    "wikipedia": "https://it.wikipedia.org/wiki/Cappelletti",
+    "categoria": "primo piatto",
+    "settore" : "",
     "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Cappelletti-al-rag%C3%B9",
     "type": "Piatto"
 
@@ -171,8 +171,8 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Maltagliati",
     "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Pasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg/225px-Pasta_e_ceci_con_maltagliati_di_pasta_all%E2%80%99uovo.jpg",
     "wikipedia": "https://it.wikipedia.org/wiki/Maltagliati",
-    "categoria": "pasta",
-    "settore" : "primo piatto",
+    "categoria": "primo piatto",
+    "settore" : "",
     "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Maltagliati-con-fagioli",
     "type": "Piatto"
   },
@@ -182,8 +182,8 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Passatelli",
     "urlImmagine": "https://it.wikipedia.org/wiki/File:Passatelli-piato.JPG",
     "wikipedia": "https://it.wikipedia.org/wiki/Passatelli",
-    "categoria": "pasta",
-    "settore" : "primo piatto",
+    "categoria": "primo piatto",
+    "settore" : "",
     "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Passatelli-in-brodo",
     "type": "Piatto"
   },
@@ -193,8 +193,8 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Primi-piatti/Spoja-lorda",
     "urlImmagine": "",
     "wikipedia": "",
-    "categoria": "pasta",
-    "settore" : "primo piatto",
+    "categoria": "primo piatto",
+    "settore" : "",
     "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Spoja-lorda-in-brodo",
     "type": "Piatto"
   }
