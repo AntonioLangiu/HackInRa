@@ -34,22 +34,32 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     // Draw the map. Note that we need to reset the container to be sure.
     if ($scope.map !== undefined) {
         $scope.map.remove();
+        $scope.map = undefined;
         $("#item-modal-mappa").html("");
     }
     var latitude = item.geometry.coordinates[0];
     var longitude = item.geometry.coordinates[1];
-    $scope.map = leaflet.map("item-modal-mappa").setView(
-        [longitude, latitude], 15);
 
-    leaflet.tileLayer(
-           'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
-           {
-             maxZoom : 18,
-             id : 'mapbox.streets'
-           })
-        .addTo($scope.map);
+    // Note: leaflet does not like it when we pass it undefined values
+    // and it goes wild, so protect against this unlucky event
+    if (latitude !== undefined && longitude !== undefined) {
 
-    leaflet.marker([longitude, latitude]).addTo($scope.map);
+        $scope.map = leaflet.map("item-modal-mappa").setView(
+            [longitude, latitude], 15);
+
+        leaflet.tileLayer(
+            'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
+                {
+                    maxZoom : 18,
+                    id : 'mapbox.streets'
+                })
+            .addTo($scope.map);
+
+        leaflet.marker([longitude, latitude]).addTo($scope.map);
+
+    } else {
+        console.log("At leat one of 'latitude' or 'longiture' is undefined");
+    }
 
     // Open the modal window
     $('#item-modal-view').openModal();
