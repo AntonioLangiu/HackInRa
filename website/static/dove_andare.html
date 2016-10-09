@@ -31,7 +31,6 @@
              <li class="tab col s3"><a href="#mosaici">Mosaici</a></li>
              <li class="tab col s3"><a href="#attrazioni">Attrazioni</a></li>
              <li class="tab col s3"><a href="#natura">Natura</a></li>
-
            </ul>
          </div>
 
@@ -96,34 +95,7 @@
                     </span>
                   </div>
                  </div>
-
-                 <!-- Modal Structure -->
-                 <div id="{{item._id}}" class="modal_edit modal modal-fixed-footer">
-                    <div class="modal-content">
-                      <h4>{{item.properties.titolo}}</h4>
-                      <p>{{item.properties.descrizione}}</p>
-                      <div class="row">
-                        <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
-                        <p class="col s12 m3"><b>Indirizzo</b></p>
-                        <p class="col s12 m4">{{item.properties.indirizzo}}</p>
-                      </div>
-                      <div style="text-align: center;">
-                        <a class="waves-effect waves-light btn-large" style="align: center;">
-                          <i class="material-icons left">navigation</i>Guidami</a>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
-                      <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
-                          ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
-                          src="img/maps.jpg"></a>
-                      <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
-
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
-                    </div>
-                  </div>
                </div>
-
            </div>
          </div>
          <!-- end chiese -->
@@ -145,31 +117,6 @@
                   </div>
                  </div>
 
-                 <!-- Modal Structure -->
-                 <div id="{{'mosa'+item._id}}" class="modal_edit modal modal-fixed-footer">
-                    <div class="modal-content">
-                      <h4>{{item.properties.titolo}}</h4>
-                      <p>{{item.properties.descrizione}}</p>
-                      <div class="row">
-                        <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
-                        <p class="col s12 m3"><b>Indirizzo</b></p>
-                        <p class="col s12 m4">{{item.properties.indirizzo}}</p>
-                      </div>
-                      <div style="text-align: center;">
-                        <a class="waves-effect waves-light btn-large" style="align: center;">
-                          <i class="material-icons left">navigation</i>Guidami</a>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
-                      <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
-                          ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
-                          src="img/maps.jpg"></a>
-                      <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
-
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
-                    </div>
-                  </div>
                </div>
            </div>
           </div>
@@ -192,33 +139,6 @@
                   </div>
                  </div>
 
-                 <!-- Modal Structure -->
-                 <div id="{{item._id}}" class="modal_edit modal modal-fixed-footer">
-                    <div class="modal-content">
-                      <h4>{{item.properties.titolo}}</h4>
-                      <p>{{item.properties.descrizione}}</p>
-                        <p><b>Indirizzo</b></p>
-                        <p>{{item.properties.indirizzo}}</p>
-                      <div class="row">
-                    <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
-                    <div class="col s12 m5" id="{{'mapid' + item._id}}"
-                         style="height: 180px;"></div>
-                      </div>
-                      <div style="text-align: center;">
-                        <a class="waves-effect waves-light btn-large" style="align: center;">
-                          <i class="material-icons left">navigation</i>Guidami</a>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
-                      <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
-                          ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
-                          src="img/maps.jpg"></a>
-                      <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
-
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
-                    </div>
-                  </div>
                </div>
            </div>
          </div>
@@ -241,31 +161,6 @@
                   </div>
                  </div>
 
-                 <!-- Modal Structure -->
-                 <div id="{{item._id}}" class="modal_edit modal modal-fixed-footer">
-                    <div class="modal-content">
-                      <h4>{{item.properties.titolo}}</h4>
-                      <p>{{item.properties.descrizione}}</p>
-                      <div class="row">
-                        <img class="col s12 m5 responsive-img" src="{{item.properties.foto}}">
-                        <p class="col s12 m3"><b>Indirizzo</b></p>
-                        <p class="col s12 m4">{{item.properties.indirizzo}}</p>
-                      </div>
-                      <div style="text-align: center;">
-                        <a class="waves-effect waves-light btn-large" style="align: center;">
-                          <i class="material-icons left">navigation</i>Guidami</a>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="{{item.properties.wikipedia}}"><img style="width: 38px; height: 38px;"  src="img/wiki.png"></a>
-                      <a href="{{'http://www.google.com/maps/place/'+item.geometry.coordinates[1]+'
-                          ,'+item.geometry.coordinates[0]}}"><img style="width: 42px; height: 42px;"
-                          src="img/maps.jpg"></a>
-                      <a href="{{item.properties.urlScheda}}"><img style="width: 60px; height: 42px;"  src="img/ravenna_turismo.gif"></a>
-
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Esci</a>
-                    </div>
-                  </div>
                </div>
            </div>
          </div>
