@@ -4,7 +4,7 @@
   "prezzoTotaleStimato": "0 euro",
   "distanzaTotaleStimata": "5 Km",
   "immagineMappa": "",
-  "carousel": ["http://www.turismo.ra.it/upload/sfondi_header/pineta_svitale2.jpg", "http://www.turismo.ra.it/upload/sfondi_header/bardello.jpg", ""],
+  "carousel": ["http://www.turismo.ra.it/upload/sfondi_header/pineta_svitale2.jpg", "http://www.turismo.ra.it/upload/sfondi_header/bardello.jpg", "http://www.turismo.ra.it/upload/sfondi_header/punta_alberete.jpg"],
   "tappe": [1, 2, 3, 4],
   "type": "Itinerario"
 }]
