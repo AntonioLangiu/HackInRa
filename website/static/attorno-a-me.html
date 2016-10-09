@@ -37,6 +37,10 @@ $.getJSON("http://scoprira.eu-gb.mybluemix.net/api/geo/nearest?lat=44.417082&lon
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
+        for (i=0; i<data.length; i++){
+           L.geoJSON(data[i]).addTo(mymap)
+       }
+
 });
 </script>
   </div>
