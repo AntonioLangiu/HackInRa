@@ -38,9 +38,9 @@ $.getJSON("http://scoprira.eu-gb.mybluemix.net/api/geo/nearest?lat=44.417082&lon
 		id: 'mapbox.streets'
 	}).addTo(mymap);
         for (i=0; i<data.length; i++){
-           L.geoJSON(data[i]).addTo(mymap)
+           L.geoJSON(data[i]).addTo(mymap)//.bindPopup(found.titolo)
        }
-
+       L.marker([44.417082,12.1961996], {icon: redIcon}).addTo(map).bindPopup("Sono qui!");
 });
 </script>
   </div>
