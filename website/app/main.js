@@ -27,8 +27,8 @@ app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     for (var i = 0; i < keys.length; i += 1) {
       $("#item-modal-" + keys[i]).attr("href", item.properties[keys[i]]);
     }
-    $("#item-modal-gmaps").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[0]+","+item.geometry.coordinates[1]);
-    $("#item-modal-guidami").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[0]+","+item.geometry.coordinates[1]);
+    $("#item-modal-gmaps").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[1]+","+item.geometry.coordinates[0]);
+    $("#item-modal-guidami").attr("href", "http://www.google.com/maps/place/"+item.geometry.coordinates[1]+","+item.geometry.coordinates[0]);
 
 
     // Then fill the image
