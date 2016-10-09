@@ -10,7 +10,7 @@
     "ricetta": "",
     "type": "Piatto"
   },
-  { 
+  {
     "titolo": "Mora romagnola",
     "descrizione": "La Mora Romagnola è una razza suina che ha le sue origini in Emilia-Romagna (particolarmente nelle province di Forlì-Cesena e Ravenna)",
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Carne/Mora-romagnola",
@@ -82,7 +82,7 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pane-di-Romagna/Piadina",
     "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Piadina.jpg/1024px-Piadina.jpg",
     "wikipedia": "https://it.wikipedia.org/wiki/Piadina_romagnola",
-    "categoria": "",
+    "categoria": "primo piatto",
     "settore" : "",
     "ricetta": "",
     "type": "Piatto"
@@ -93,7 +93,7 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Pane-di-Romagna/Pizza-fritta",
     "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pizza_fritta.jpg",
     "wikipedia": "https://it.wikipedia.org/wiki/Pizza_fritta_(gastronomia)",
-    "categoria": "",
+    "categoria": "primo piatto",
     "settore" : "",
     "ricetta": "",
     "type": "Piatto"
@@ -104,7 +104,7 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Caterine",
     "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/I_cantuccini.jpg/1920px-I_cantuccini.jpg",
     "wikipedia": "",
-    "categoria": "",
+    "categoria": "dolce",
     "settore" : "",
     "ricetta": "http://www.turismo.ra.it/ita/Enogastronomia/Ricette-della-Tradizione/Caterine",
     "type": "Piatto"
@@ -115,7 +115,7 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Torta-Teodora",
     "urlImmagine": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Torta_fatta_in_casa.jpg",
     "wikipedia": "",
-    "categoria": "",
+    "categoria": "dolce",
     "settore" : "",
     "ricetta": "",
     "type": "Piatto"
@@ -126,7 +126,7 @@
     "scheda": "http://www.turismo.ra.it/ita/Enogastronomia/Prodotti-tipici/Dolci/Ravennino",
     "urlImmagine": "http://www.ravennaintorno.it/var/ravenna_intorno/storage/images/enogastronomia/menu-del-gusto/dolci/ravennino/21292-14-ita-IT/Ravennino_foto_scheda.jpg",
     "wikipedia": "",
-    "categoria": "",
+    "categoria": "dolce",
     "settore" : "",
     "ricetta": "",
     "type": "Piatto"
